@@ -57,6 +57,8 @@ python "$PROJECT/verify_results.py"
 3. 普通请求的输出一致性尚未完全通过；应先定位差异、再增加回归测试，之后才能谈部署。
 4. Nsight Systems 可运行；云端对 Nsight Compute GPU 硬件计数器返回 `ERR_NVGPUCTRPERM`，所以没有可靠的硬件计数器数据。若需深入 kernel 分析，需机器提供计数器访问权限。
 
-**后续补充诊断：**已在克隆机上完成分来源的已调度草稿、实际接受 token、目标模型执行步数及 proposer 增量 CPU 时间测量，并复查普通请求输出差异。高重复场景下跨请求草稿接受率为 100%，普通请求仅有一次跨请求草稿验证且被拒绝；旧基准的 5/8 差异可复现，但请求 logprobs 后变为一致，具体数值机制尚未定位。原始数据、两机无诊断复测与限制见 [diagnostics/REPORT.md](diagnostics/REPORT.md)。
+## 补充诊断
+
+已在克隆机上完成分来源的已调度草稿、实际接受 token、目标模型执行步数及 proposer 增量 CPU 时间测量，并复查普通请求输出差异。高重复场景下跨请求草稿接受率为 100%，普通请求仅有一次跨请求草稿验证且被拒绝；旧基准的 5/8 差异可复现，但请求 logprobs 后变为一致，具体数值机制尚未定位。原始数据、两机无诊断复测与限制见 [diagnostics/REPORT.md](diagnostics/REPORT.md)。
 
 相关上游资料：[vLLM 0.11.0 NgramProposer](https://docs.vllm.ai/en/v0.11.0/api/vllm/v1/spec_decode/ngram_proposer.html)、[vLLM 0.11.0 benchmark 说明](https://docs.vllm.ai/en/v0.11.0/contributing/benchmarks.html)。
