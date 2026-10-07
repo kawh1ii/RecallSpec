@@ -1,0 +1,101 @@
+{"type": "verify", "rows": [{"req_id": "0", "draft": [8317, 3110, 13, 5443, 279, 12460, 1142, 12816], "accepted": 1, "sampled": [8317, 15048]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 17, 15, 15, 15, 15, 304, 697], "accepted": 0, "sampled": [11]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 304, 697, 16148, 13], "accepted": 4, "sampled": [15, 15, 15, 15, 11]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [8317, 3110, 13, 5443, 279, 12460, 1142, 12816], "accepted": 0, "sampled": [1849]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [1817, 7745, 374, 264, 8651, 5666, 429, 15804], "accepted": 0, "sampled": [13914]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [1852, 821, 2041, 74287, 448, 1817, 1008, 13], "accepted": 0, "sampled": [4625]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [58663, 25, 8547, 23200, 271, 51057, 264, 6073], "accepted": 0, "sampled": [14822]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [15, 15, 15, 16, 304, 697, 16148, 13], "accepted": 4, "sampled": [15, 15, 15, 16, 271]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [13, 5443, 279, 12460, 1142, 12816, 220, 17], "accepted": 0, "sampled": [23783]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [13, 5443, 279, 12460, 1142, 12816, 220, 17], "accepted": 0, "sampled": [374]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [25, 220, 17, 15, 15, 15, 16, 271], "accepted": 0, "sampled": [220]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [15, 15, 15, 16, 304, 697, 16148, 13], "accepted": 4, "sampled": [15, 15, 15, 16, 11]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [4709, 21501, 54046, 2524, 13, 5443, 279, 12460], "accepted": 4, "sampled": [4709, 21501, 54046, 2524, 382]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [25, 220, 17, 15, 15, 15, 16, 271], "accepted": 0, "sampled": [220]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [17, 15, 15, 15, 16, 11, 1077, 594], "accepted": 6, "sampled": [17, 15, 15, 15, 16, 11, 264]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [11, 7945, 304, 25283, 1380, 54046, 2524, 374], "accepted": 0, "sampled": [374]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [13, 5443, 279, 12460, 1142, 12816, 220, 17], "accepted": 0, "sampled": [16953]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [77470, 315, 27035, 13, 758, 279, 2266, 315], "accepted": 3, "sampled": [77470, 315, 27035, 311]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [279, 77470, 315, 27035, 13, 758, 279, 2266], "accepted": 1, "sampled": [279, 33832]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [1142, 12816, 220, 17, 15, 15, 15, 17], "accepted": 8, "sampled": [1142, 12816, 220, 17, 15, 15, 15, 17, 11]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [821, 374, 16645, 304, 264, 3175, 1965, 448], "accepted": 1, "sampled": [821, 1035]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [3175, 1965, 448, 1817, 2802, 8482, 264, 12460], "accepted": 0, "sampled": [1965]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [1817, 2802, 8482, 264, 12460, 10601, 315, 8201], "accepted": 0, "sampled": [8147]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 17, 15, 15, 15, 17, 304, 697], "accepted": 0, "sampled": [11]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [2802, 5819, 11, 279, 821, 374, 16645, 304], "accepted": 0, "sampled": [3250]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [369, 78036, 19556, 13, 5443, 279, 12460, 1142], "accepted": 0, "sampled": [11]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [279, 821, 374, 16645, 304, 264, 3175, 1965], "accepted": 4, "sampled": [279, 821, 374, 16645, 448]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [2802, 8482, 264, 12460, 10601, 315, 8201, 13], "accepted": 0, "sampled": [3250]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [12460, 10601, 315, 8201, 13, 1752, 279, 12460], "accepted": 8, "sampled": [12460, 10601, 315, 8201, 13, 1752, 279, 12460, 1142]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [12816, 220, 17, 15, 15, 15, 17, 11], "accepted": 8, "sampled": [12816, 220, 17, 15, 15, 15, 17, 11, 279]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [821, 1035, 387, 9768, 304, 264, 1965, 448], "accepted": 8, "sampled": [821, 1035, 387, 9768, 304, 264, 1965, 448, 8147]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [369, 279, 1142, 12816, 11, 1008, 8201, 11], "accepted": 8, "sampled": [369, 279, 1142, 12816, 11, 1008, 8201, 11, 323]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [2750, 13, 758, 3250, 5819, 11, 279, 821], "accepted": 1, "sampled": [2750, 11]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [374, 16645, 304, 264, 3175, 1965, 448, 1817], "accepted": 0, "sampled": [1035]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [387, 9768, 304, 264, 1965, 448, 8147, 369], "accepted": 1, "sampled": [387, 16645]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [8482, 264, 12460, 10601, 315, 8201, 13, 1752], "accepted": 0, "sampled": [5610]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [10601, 315, 8201, 13, 1752, 279, 12460, 1142], "accepted": 3, "sampled": [10601, 315, 8201, 382]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [13, 5443, 279, 12460, 1142, 12816, 220, 17], "accepted": 0, "sampled": [11]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [264, 3270, 98488, 1487, 304, 264, 4625, 13], "accepted": 4, "sampled": [264, 3270, 98488, 1487, 320]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [4625, 13, 5443, 279, 12460, 1142, 12816, 220], "accepted": 1, "sampled": [4625, 374]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [3270, 98488, 1487, 304, 264, 4625, 13, 5443], "accepted": 0, "sampled": [1849]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [7428, 315, 264, 3270, 98488, 1487, 320, 54], "accepted": 0, "sampled": [73792]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [4625, 11, 2670, 8837, 11, 49298, 11, 323], "accepted": 1, "sampled": [4625, 3542]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [374, 7945, 2989, 304, 21737, 1380, 821, 4709], "accepted": 0, "sampled": [1882]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [4625, 13, 5443, 279, 12460, 1142, 12816, 220], "accepted": 0, "sampled": [51000]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [54170, 11, 1573, 3520, 4378, 279, 4344, 311], "accepted": 0, "sampled": [279]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [11, 2670, 8837, 11, 49298, 11, 323, 54170], "accepted": 0, "sampled": [1849]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [311, 279, 4625, 3542, 13, 1096, 1882, 374], "accepted": 6, "sampled": [311, 279, 4625, 3542, 13, 1096, 25351]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [15, 15, 15, 19, 304, 697, 16148, 13], "accepted": 4, "sampled": [15, 15, 15, 19, 271]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [315, 65949, 47791, 13, 5443, 279, 12460, 1142], "accepted": 0, "sampled": [13]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [315, 65949, 47791, 13, 5443, 279, 12460, 1142], "accepted": 0, "sampled": [1447]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [3321, 1693, 271, 16, 13, 3070, 1043, 7292], "accepted": 0, "sampled": [47791]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [11, 264, 1714, 315, 821, 47791, 1380, 279], "accepted": 0, "sampled": [25351]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [821, 389, 279, 6028, 323, 14246, 5942, 374], "accepted": 0, "sampled": [14246]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [1043, 7292, 47094, 95518, 328, 27834, 47791, 25351], "accepted": 0, "sampled": [11976]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [1849, 646, 387, 1483, 438, 264, 3690, 1975], "accepted": 1, "sampled": [1849, 40485]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [323, 14246, 5942, 374, 2677, 304, 12811, 13], "accepted": 0, "sampled": [1849]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [7246, 11, 6081, 3807, 7567, 714, 1083, 4041], "accepted": 2, "sampled": [7246, 11, 432]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [646, 7949, 13364, 15804, 13, 5443, 279, 12460], "accepted": 0, "sampled": [374]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [84093, 4532, 821, 5944, 429, 374, 1483, 311], "accepted": 0, "sampled": [4462]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [13, 5443, 279, 12460, 1142, 12816, 220, 17], "accepted": 0, "sampled": [553]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [429, 374, 1483, 311, 1273, 3425, 458, 2392], "accepted": 0, "sampled": [11]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [1142, 12816, 220, 17, 15, 15, 15, 20], "accepted": 8, "sampled": [1142, 12816, 220, 17, 15, 15, 15, 20, 438]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [24503, 4051, 646, 7949, 13364, 15804, 13, 5443], "accepted": 6, "sampled": [24503, 4051, 646, 7949, 13364, 15804, 382]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [15, 15, 15, 20, 304, 697, 16148, 13], "accepted": 2, "sampled": [15, 15, 11]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [15, 20, 304, 697, 16148, 13, 362, 24503], "accepted": 1, "sampled": [15, 12460]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [12816, 220, 17, 15, 15, 15, 20, 304], "accepted": 0, "sampled": [47216]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [15, 15, 20, 304, 697, 16148, 13, 362], "accepted": 3, "sampled": [15, 15, 20, 11]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [15, 15, 15, 20, 304, 697, 16148, 13], "accepted": 3, "sampled": [15, 15, 15, 21]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [15, 15, 15, 20, 304, 697, 16148, 13], "accepted": 1, "sampled": [15, 17]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [15, 15, 20, 304, 697, 16148, 13, 362], "accepted": 1, "sampled": [15, 20]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [304, 697, 16148, 13, 362, 24503, 4051, 374], "accepted": 0, "sampled": [568]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [13, 5443, 279, 12460, 1142, 12816, 220, 17], "accepted": 0, "sampled": [11]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [14830, 369, 821, 57673, 13, 5443, 279, 12460], "accepted": 0, "sampled": [374]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [14830, 369, 821, 57673, 13, 5443, 279, 12460], "accepted": 0, "sampled": [8282]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [14830, 369, 821, 57673, 13, 5443, 279, 12460], "accepted": 1, "sampled": [14830, 11]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [1142, 12816, 220, 17, 15, 15, 15, 21], "accepted": 8, "sampled": [1142, 12816, 220, 17, 15, 15, 15, 21, 382]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [13, 3070, 23750, 292, 4248, 2768, 287, 1019], "accepted": 0, "sampled": [15]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [1352, 4221, 2326, 11364, 13, 5443, 279, 12460], "accepted": 4, "sampled": [1352, 4221, 2326, 11364, 979]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [1142, 12816, 220, 17, 15, 15, 15, 22], "accepted": 8, "sampled": [1142, 12816, 220, 17, 15, 15, 15, 22, 311]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [13, 5443, 279, 12460, 1142, 12816, 220, 17], "accepted": 0, "sampled": [25]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [11, 393, 17, 11, 323, 393, 18, 13], "accepted": 0, "sampled": [9982]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [293, 13, 576, 4963, 525, 20204, 438, 11017], "accepted": 0, "sampled": [374]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [369, 264, 5101, 5644, 553, 2441, 1882, 11], "accepted": 1, "sampled": [369, 5101]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [16, 9982, 5101, 264, 323, 374, 8580, 369], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [11, 323, 393, 18, 13, 8886, 1882, 7460], "accepted": 0, "sampled": [9982]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [264, 323, 374, 8580, 369, 5101, 293, 624], "accepted": 0, "sampled": [293]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [624, 12, 393, 17, 9982, 5101, 293], "accepted": 0, "sampled": [323]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [8580, 369, 5101, 293, 624, 12, 393, 17], "accepted": 3, "sampled": [8580, 369, 5101, 264]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [323, 374, 8580, 369, 5101, 293, 624, 12], "accepted": 0, "sampled": [624]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [393, 17, 9982, 5101, 293, 323, 374, 8580], "accepted": 1, "sampled": [393, 18]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [13, 8886, 1882, 7460, 1378, 4963, 25, 264], "accepted": 0, "sampled": [9982]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [264, 323, 374, 8580, 369, 5101, 293, 624], "accepted": 7, "sampled": [264, 323, 374, 8580, 369, 5101, 293, 382]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [4221, 2326, 11364, 13, 5443, 279, 12460, 1142], "accepted": 0, "sampled": [1447]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [821, 57673, 11, 29295, 287, 374, 264, 16587], "accepted": 0, "sampled": [4237]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [25271, 1299, 3629, 13, 5443, 279, 12460, 1142], "accepted": 0, "sampled": [374]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [16293, 304, 264, 1616, 429, 21187, 4756, 279], "accepted": 1, "sampled": [16293, 4344]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [315, 1299, 23036, 979, 279, 738, 315, 16293], "accepted": 1, "sampled": [315, 16293]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [304, 264, 1616, 429, 21187, 4756, 279, 1372], "accepted": 0, "sampled": [646]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [12607, 264, 1459, 389, 419, 10058, 13, 3197], "accepted": 0, "sampled": [3694]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [12607, 264, 1459, 389, 419, 10058, 13, 3197], "accepted": 0, "sampled": [6963]}]}

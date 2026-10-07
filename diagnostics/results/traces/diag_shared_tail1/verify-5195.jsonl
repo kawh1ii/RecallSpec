@@ -1,0 +1,197 @@
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 13, 576, 12816, 374], "accepted": 0, "sampled": [220]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 13, 576, 12816, 374], "accepted": 1, "sampled": [15, 220]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 13, 576, 12816, 374], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [17, 220, 18, 220, 19, 220, 20, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 13, 576, 12816, 374], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 13, 576, 12816, 374], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [19, 220, 20, 220, 21, 220, 22, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 13, 576, 12816, 374], "accepted": 0, "sampled": [19]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [20, 220, 21, 220, 22, 220, 23, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 13, 576, 12816, 374], "accepted": 0, "sampled": [20]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [21, 220, 22, 220, 23, 220, 24, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 13, 576, 12816, 374], "accepted": 0, "sampled": [21]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [22, 220, 23, 220, 24, 220, 16, 15], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 13, 576, 12816, 374], "accepted": 0, "sampled": [22]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [23, 220, 24, 220, 16, 15, 220, 16], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 13, 576, 12816, 374], "accepted": 0, "sampled": [23]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [24, 220, 16, 15, 220, 16, 16, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [15, 15, 15, 15, 13, 576, 12816, 374], "accepted": 0, "sampled": [24]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [16, 15, 220, 16, 16, 220, 16, 17], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 18, 220, 19, 220, 20, 220, 21], "accepted": 0, "sampled": [15]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [16, 16, 220, 16, 17, 220, 16, 18], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 18, 220, 19, 220, 20, 220, 21], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [17, 220, 18, 220, 19, 220, 20, 220], "accepted": 1, "sampled": [17, 17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 18, 220, 19, 220, 20, 220, 21], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [19, 220, 20, 220, 21, 220, 22, 220], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 18, 220, 19, 220, 20, 220, 21], "accepted": 0, "sampled": [19]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [20, 220, 21, 220, 22, 220, 23, 220], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 18, 220, 19, 220, 20, 220, 21], "accepted": 0, "sampled": [20]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [21, 220, 22, 220, 23, 220, 24, 220], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 18, 220, 19, 220, 20, 220, 21], "accepted": 0, "sampled": [21]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [22, 220, 23, 220, 24, 220, 16, 15], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 18, 220, 19, 220, 20, 220, 21], "accepted": 0, "sampled": [22]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [23, 220, 24, 220, 16, 15, 220, 16], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 18, 220, 19, 220, 20, 220, 21], "accepted": 0, "sampled": [23]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [24, 220, 16, 15, 220, 16, 16, 220], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 18, 220, 19, 220, 20, 220, 21], "accepted": 0, "sampled": [24]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [16, 15, 220, 16, 16, 220, 16, 17], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 19, 220, 20, 220, 21, 220, 22], "accepted": 0, "sampled": [15]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [16, 16, 220, 16, 17, 220, 16, 18], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 19, 220, 20, 220, 21, 220, 22], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [17, 220, 18, 220, 19, 220, 20, 220], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 19, 220, 20, 220, 21, 220, 22], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 1, "sampled": [18, 18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [19, 220, 20, 220, 21, 220, 22, 220], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 19, 220, 20, 220, 21, 220, 22], "accepted": 0, "sampled": [19]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [20, 220, 21, 220, 22, 220, 23, 220], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 19, 220, 20, 220, 21, 220, 22], "accepted": 0, "sampled": [20]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [21, 220, 22, 220, 23, 220, 24, 220], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 19, 220, 20, 220, 21, 220, 22], "accepted": 0, "sampled": [21]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [22, 220, 23, 220, 24, 220, 16, 15], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 19, 220, 20, 220, 21, 220, 22], "accepted": 0, "sampled": [22]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [23, 220, 24, 220, 16, 15, 220, 16], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 19, 220, 20, 220, 21, 220, 22], "accepted": 0, "sampled": [23]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [24, 220, 16, 15, 220, 16, 16, 220], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 19, 220, 20, 220, 21, 220, 22], "accepted": 0, "sampled": [24]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [16, 15, 220, 16, 16, 220, 16, 17], "accepted": 0, "sampled": [19]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 20, 220, 21, 220, 22, 220, 23], "accepted": 0, "sampled": [15]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [16, 16, 220, 16, 17, 220, 16, 18], "accepted": 0, "sampled": [19]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 20, 220, 21, 220, 22, 220, 23], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [17, 220, 18, 220, 19, 220, 20, 220], "accepted": 0, "sampled": [19]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 20, 220, 21, 220, 22, 220, 23], "accepted": 0, "sampled": [17]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 0, "sampled": [19]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 20, 220, 21, 220, 22, 220, 23], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [19, 220, 20, 220, 21, 220, 22, 220], "accepted": 1, "sampled": [19, 19]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [20, 220, 21, 220, 22, 220, 23, 220], "accepted": 0, "sampled": [19]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [220, 20, 220, 21, 220, 22, 220, 23], "accepted": 0, "sampled": [20]}]}
+{"type": "verify", "rows": [{"req_id": "0", "draft": [21, 220, 22, 220, 23, 220, 24, 220], "accepted": 0, "sampled": [19]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [16, 220, 17, 220, 18, 220, 19, 220], "accepted": 8, "sampled": [16, 220, 17, 220, 18, 220, 19, 220, 20]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 21, 220, 22, 220, 23, 220, 24], "accepted": 8, "sampled": [220, 21, 220, 22, 220, 23, 220, 24, 220]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [16, 15, 220, 16, 16, 220, 16, 17], "accepted": 8, "sampled": [16, 15, 220, 16, 16, 220, 16, 17, 220]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [15, 15, 15, 16, 13, 576, 12816, 374], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 16, 19, 220, 16, 20, 220, 16], "accepted": 8, "sampled": [220, 16, 19, 220, 16, 20, 220, 16, 21]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 16, 22, 220, 16, 23, 220, 16], "accepted": 8, "sampled": [220, 16, 22, 220, 16, 23, 220, 16, 24]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 17, 15, 220, 17, 16, 220, 17], "accepted": 8, "sampled": [220, 17, 15, 220, 17, 16, 220, 17, 17]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 17, 18, 220, 17, 19, 220, 17], "accepted": 8, "sampled": [220, 17, 18, 220, 17, 19, 220, 17, 20]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 17, 21, 220, 17, 22, 220, 17], "accepted": 8, "sampled": [220, 17, 21, 220, 17, 22, 220, 17, 23]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 17, 24, 220, 18, 15, 220, 18], "accepted": 8, "sampled": [220, 17, 24, 220, 18, 15, 220, 18, 16]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 18, 17, 220, 18, 18, 220, 18], "accepted": 8, "sampled": [220, 18, 17, 220, 18, 18, 220, 18, 19]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 18, 20, 220, 18, 21, 220, 18], "accepted": 8, "sampled": [220, 18, 20, 220, 18, 21, 220, 18, 22]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 18, 23, 220, 18, 24, 220, 19], "accepted": 8, "sampled": [220, 18, 23, 220, 18, 24, 220, 19, 15]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 19, 16, 220, 19, 17, 220, 19], "accepted": 8, "sampled": [220, 19, 16, 220, 19, 17, 220, 19, 18]}]}
+{"type": "verify", "rows": [{"req_id": "1", "draft": [220, 19, 19, 220, 19, 20, 220, 19], "accepted": 8, "sampled": [220, 19, 19, 220, 19, 20, 220, 19, 21]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [16, 220, 17, 220, 18, 220, 19, 220], "accepted": 8, "sampled": [16, 220, 17, 220, 18, 220, 19, 220, 20]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 21, 220, 22, 220, 23, 220, 24], "accepted": 8, "sampled": [220, 21, 220, 22, 220, 23, 220, 24, 220]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [16, 15, 220, 16, 16, 220, 16, 17], "accepted": 8, "sampled": [16, 15, 220, 16, 16, 220, 16, 17, 220]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [15, 15, 15, 17, 13, 576, 12816, 374], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 16, 19, 220, 16, 20, 220, 16], "accepted": 8, "sampled": [220, 16, 19, 220, 16, 20, 220, 16, 21]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 16, 22, 220, 16, 23, 220, 16], "accepted": 8, "sampled": [220, 16, 22, 220, 16, 23, 220, 16, 24]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 17, 15, 220, 17, 16, 220, 17], "accepted": 8, "sampled": [220, 17, 15, 220, 17, 16, 220, 17, 17]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 17, 18, 220, 17, 19, 220, 17], "accepted": 8, "sampled": [220, 17, 18, 220, 17, 19, 220, 17, 20]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 17, 21, 220, 17, 22, 220, 17], "accepted": 8, "sampled": [220, 17, 21, 220, 17, 22, 220, 17, 23]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 17, 24, 220, 18, 15, 220, 18], "accepted": 8, "sampled": [220, 17, 24, 220, 18, 15, 220, 18, 16]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 18, 17, 220, 18, 18, 220, 18], "accepted": 8, "sampled": [220, 18, 17, 220, 18, 18, 220, 18, 19]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 18, 20, 220, 18, 21, 220, 18], "accepted": 8, "sampled": [220, 18, 20, 220, 18, 21, 220, 18, 22]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 18, 23, 220, 18, 24, 220, 19], "accepted": 8, "sampled": [220, 18, 23, 220, 18, 24, 220, 19, 15]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 19, 16, 220, 19, 17, 220, 19], "accepted": 8, "sampled": [220, 19, 16, 220, 19, 17, 220, 19, 18]}]}
+{"type": "verify", "rows": [{"req_id": "2", "draft": [220, 19, 19, 220, 19, 20, 220, 19], "accepted": 8, "sampled": [220, 19, 19, 220, 19, 20, 220, 19, 21]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [16, 220, 17, 220, 18, 220, 19, 220], "accepted": 8, "sampled": [16, 220, 17, 220, 18, 220, 19, 220, 20]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 21, 220, 22, 220, 23, 220, 24], "accepted": 8, "sampled": [220, 21, 220, 22, 220, 23, 220, 24, 220]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [16, 15, 220, 16, 16, 220, 16, 17], "accepted": 8, "sampled": [16, 15, 220, 16, 16, 220, 16, 17, 220]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [15, 15, 15, 18, 13, 576, 12816, 374], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 16, 19, 220, 16, 20, 220, 16], "accepted": 8, "sampled": [220, 16, 19, 220, 16, 20, 220, 16, 21]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 16, 22, 220, 16, 23, 220, 16], "accepted": 8, "sampled": [220, 16, 22, 220, 16, 23, 220, 16, 24]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 17, 15, 220, 17, 16, 220, 17], "accepted": 8, "sampled": [220, 17, 15, 220, 17, 16, 220, 17, 17]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 17, 18, 220, 17, 19, 220, 17], "accepted": 8, "sampled": [220, 17, 18, 220, 17, 19, 220, 17, 20]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 17, 21, 220, 17, 22, 220, 17], "accepted": 8, "sampled": [220, 17, 21, 220, 17, 22, 220, 17, 23]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 17, 24, 220, 18, 15, 220, 18], "accepted": 8, "sampled": [220, 17, 24, 220, 18, 15, 220, 18, 16]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 18, 17, 220, 18, 18, 220, 18], "accepted": 8, "sampled": [220, 18, 17, 220, 18, 18, 220, 18, 19]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 18, 20, 220, 18, 21, 220, 18], "accepted": 8, "sampled": [220, 18, 20, 220, 18, 21, 220, 18, 22]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 18, 23, 220, 18, 24, 220, 19], "accepted": 8, "sampled": [220, 18, 23, 220, 18, 24, 220, 19, 15]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 19, 16, 220, 19, 17, 220, 19], "accepted": 8, "sampled": [220, 19, 16, 220, 19, 17, 220, 19, 18]}]}
+{"type": "verify", "rows": [{"req_id": "3", "draft": [220, 19, 19, 220, 19, 20, 220, 19], "accepted": 8, "sampled": [220, 19, 19, 220, 19, 20, 220, 19, 21]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [16, 220, 17, 220, 18, 220, 19, 220], "accepted": 8, "sampled": [16, 220, 17, 220, 18, 220, 19, 220, 20]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 21, 220, 22, 220, 23, 220, 24], "accepted": 8, "sampled": [220, 21, 220, 22, 220, 23, 220, 24, 220]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [16, 15, 220, 16, 16, 220, 16, 17], "accepted": 8, "sampled": [16, 15, 220, 16, 16, 220, 16, 17, 220]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [15, 15, 15, 19, 13, 576, 12816, 374], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 16, 19, 220, 16, 20, 220, 16], "accepted": 8, "sampled": [220, 16, 19, 220, 16, 20, 220, 16, 21]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 16, 22, 220, 16, 23, 220, 16], "accepted": 8, "sampled": [220, 16, 22, 220, 16, 23, 220, 16, 24]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 17, 15, 220, 17, 16, 220, 17], "accepted": 8, "sampled": [220, 17, 15, 220, 17, 16, 220, 17, 17]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 17, 18, 220, 17, 19, 220, 17], "accepted": 8, "sampled": [220, 17, 18, 220, 17, 19, 220, 17, 20]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 17, 21, 220, 17, 22, 220, 17], "accepted": 8, "sampled": [220, 17, 21, 220, 17, 22, 220, 17, 23]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 17, 24, 220, 18, 15, 220, 18], "accepted": 8, "sampled": [220, 17, 24, 220, 18, 15, 220, 18, 16]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 18, 17, 220, 18, 18, 220, 18], "accepted": 8, "sampled": [220, 18, 17, 220, 18, 18, 220, 18, 19]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 18, 20, 220, 18, 21, 220, 18], "accepted": 8, "sampled": [220, 18, 20, 220, 18, 21, 220, 18, 22]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 18, 23, 220, 18, 24, 220, 19], "accepted": 8, "sampled": [220, 18, 23, 220, 18, 24, 220, 19, 15]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 19, 16, 220, 19, 17, 220, 19], "accepted": 8, "sampled": [220, 19, 16, 220, 19, 17, 220, 19, 18]}]}
+{"type": "verify", "rows": [{"req_id": "4", "draft": [220, 19, 19, 220, 19, 20, 220, 19], "accepted": 8, "sampled": [220, 19, 19, 220, 19, 20, 220, 19, 21]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [16, 220, 17, 220, 18, 220, 19, 220], "accepted": 8, "sampled": [16, 220, 17, 220, 18, 220, 19, 220, 20]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 21, 220, 22, 220, 23, 220, 24], "accepted": 8, "sampled": [220, 21, 220, 22, 220, 23, 220, 24, 220]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [16, 15, 220, 16, 16, 220, 16, 17], "accepted": 8, "sampled": [16, 15, 220, 16, 16, 220, 16, 17, 220]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [15, 15, 15, 20, 13, 576, 12816, 374], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 16, 19, 220, 16, 20, 220, 16], "accepted": 8, "sampled": [220, 16, 19, 220, 16, 20, 220, 16, 21]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 16, 22, 220, 16, 23, 220, 16], "accepted": 8, "sampled": [220, 16, 22, 220, 16, 23, 220, 16, 24]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 17, 15, 220, 17, 16, 220, 17], "accepted": 8, "sampled": [220, 17, 15, 220, 17, 16, 220, 17, 17]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 17, 18, 220, 17, 19, 220, 17], "accepted": 8, "sampled": [220, 17, 18, 220, 17, 19, 220, 17, 20]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 17, 21, 220, 17, 22, 220, 17], "accepted": 8, "sampled": [220, 17, 21, 220, 17, 22, 220, 17, 23]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 17, 24, 220, 18, 15, 220, 18], "accepted": 8, "sampled": [220, 17, 24, 220, 18, 15, 220, 18, 16]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 18, 17, 220, 18, 18, 220, 18], "accepted": 8, "sampled": [220, 18, 17, 220, 18, 18, 220, 18, 19]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 18, 20, 220, 18, 21, 220, 18], "accepted": 8, "sampled": [220, 18, 20, 220, 18, 21, 220, 18, 22]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 18, 23, 220, 18, 24, 220, 19], "accepted": 8, "sampled": [220, 18, 23, 220, 18, 24, 220, 19, 15]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 19, 16, 220, 19, 17, 220, 19], "accepted": 8, "sampled": [220, 19, 16, 220, 19, 17, 220, 19, 18]}]}
+{"type": "verify", "rows": [{"req_id": "5", "draft": [220, 19, 19, 220, 19, 20, 220, 19], "accepted": 8, "sampled": [220, 19, 19, 220, 19, 20, 220, 19, 21]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [16, 220, 17, 220, 18, 220, 19, 220], "accepted": 8, "sampled": [16, 220, 17, 220, 18, 220, 19, 220, 20]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 21, 220, 22, 220, 23, 220, 24], "accepted": 8, "sampled": [220, 21, 220, 22, 220, 23, 220, 24, 220]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [16, 15, 220, 16, 16, 220, 16, 17], "accepted": 8, "sampled": [16, 15, 220, 16, 16, 220, 16, 17, 220]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [15, 15, 15, 21, 13, 576, 12816, 374], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 16, 19, 220, 16, 20, 220, 16], "accepted": 8, "sampled": [220, 16, 19, 220, 16, 20, 220, 16, 21]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 16, 22, 220, 16, 23, 220, 16], "accepted": 8, "sampled": [220, 16, 22, 220, 16, 23, 220, 16, 24]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 17, 15, 220, 17, 16, 220, 17], "accepted": 8, "sampled": [220, 17, 15, 220, 17, 16, 220, 17, 17]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 17, 18, 220, 17, 19, 220, 17], "accepted": 8, "sampled": [220, 17, 18, 220, 17, 19, 220, 17, 20]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 17, 21, 220, 17, 22, 220, 17], "accepted": 8, "sampled": [220, 17, 21, 220, 17, 22, 220, 17, 23]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 17, 24, 220, 18, 15, 220, 18], "accepted": 8, "sampled": [220, 17, 24, 220, 18, 15, 220, 18, 16]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 18, 17, 220, 18, 18, 220, 18], "accepted": 8, "sampled": [220, 18, 17, 220, 18, 18, 220, 18, 19]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 18, 20, 220, 18, 21, 220, 18], "accepted": 8, "sampled": [220, 18, 20, 220, 18, 21, 220, 18, 22]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 18, 23, 220, 18, 24, 220, 19], "accepted": 8, "sampled": [220, 18, 23, 220, 18, 24, 220, 19, 15]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 19, 16, 220, 19, 17, 220, 19], "accepted": 8, "sampled": [220, 19, 16, 220, 19, 17, 220, 19, 18]}]}
+{"type": "verify", "rows": [{"req_id": "6", "draft": [220, 19, 19, 220, 19, 20, 220, 19], "accepted": 8, "sampled": [220, 19, 19, 220, 19, 20, 220, 19, 21]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [16, 220, 17, 220, 18, 220, 19, 220], "accepted": 8, "sampled": [16, 220, 17, 220, 18, 220, 19, 220, 20]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 21, 220, 22, 220, 23, 220, 24], "accepted": 8, "sampled": [220, 21, 220, 22, 220, 23, 220, 24, 220]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [16, 15, 220, 16, 16, 220, 16, 17], "accepted": 8, "sampled": [16, 15, 220, 16, 16, 220, 16, 17, 220]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [15, 15, 15, 22, 13, 576, 12816, 374], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 16, 19, 220, 16, 20, 220, 16], "accepted": 8, "sampled": [220, 16, 19, 220, 16, 20, 220, 16, 21]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 16, 22, 220, 16, 23, 220, 16], "accepted": 8, "sampled": [220, 16, 22, 220, 16, 23, 220, 16, 24]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 17, 15, 220, 17, 16, 220, 17], "accepted": 8, "sampled": [220, 17, 15, 220, 17, 16, 220, 17, 17]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 17, 18, 220, 17, 19, 220, 17], "accepted": 8, "sampled": [220, 17, 18, 220, 17, 19, 220, 17, 20]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 17, 21, 220, 17, 22, 220, 17], "accepted": 8, "sampled": [220, 17, 21, 220, 17, 22, 220, 17, 23]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 17, 24, 220, 18, 15, 220, 18], "accepted": 8, "sampled": [220, 17, 24, 220, 18, 15, 220, 18, 16]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 18, 17, 220, 18, 18, 220, 18], "accepted": 8, "sampled": [220, 18, 17, 220, 18, 18, 220, 18, 19]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 18, 20, 220, 18, 21, 220, 18], "accepted": 8, "sampled": [220, 18, 20, 220, 18, 21, 220, 18, 22]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 18, 23, 220, 18, 24, 220, 19], "accepted": 8, "sampled": [220, 18, 23, 220, 18, 24, 220, 19, 15]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 19, 16, 220, 19, 17, 220, 19], "accepted": 8, "sampled": [220, 19, 16, 220, 19, 17, 220, 19, 18]}]}
+{"type": "verify", "rows": [{"req_id": "7", "draft": [220, 19, 19, 220, 19, 20, 220, 19], "accepted": 8, "sampled": [220, 19, 19, 220, 19, 20, 220, 19, 21]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [16, 220, 17, 220, 18, 220, 19, 220], "accepted": 8, "sampled": [16, 220, 17, 220, 18, 220, 19, 220, 20]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 21, 220, 22, 220, 23, 220, 24], "accepted": 8, "sampled": [220, 21, 220, 22, 220, 23, 220, 24, 220]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [16, 15, 220, 16, 16, 220, 16, 17], "accepted": 8, "sampled": [16, 15, 220, 16, 16, 220, 16, 17, 220]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [18, 220, 19, 220, 20, 220, 21, 220], "accepted": 0, "sampled": [16]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [15, 15, 15, 23, 13, 576, 12816, 374], "accepted": 0, "sampled": [18]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 16, 19, 220, 16, 20, 220, 16], "accepted": 8, "sampled": [220, 16, 19, 220, 16, 20, 220, 16, 21]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 16, 22, 220, 16, 23, 220, 16], "accepted": 8, "sampled": [220, 16, 22, 220, 16, 23, 220, 16, 24]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 17, 15, 220, 17, 16, 220, 17], "accepted": 8, "sampled": [220, 17, 15, 220, 17, 16, 220, 17, 17]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 17, 18, 220, 17, 19, 220, 17], "accepted": 8, "sampled": [220, 17, 18, 220, 17, 19, 220, 17, 20]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 17, 21, 220, 17, 22, 220, 17], "accepted": 8, "sampled": [220, 17, 21, 220, 17, 22, 220, 17, 23]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 17, 24, 220, 18, 15, 220, 18], "accepted": 8, "sampled": [220, 17, 24, 220, 18, 15, 220, 18, 16]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 18, 17, 220, 18, 18, 220, 18], "accepted": 8, "sampled": [220, 18, 17, 220, 18, 18, 220, 18, 19]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 18, 20, 220, 18, 21, 220, 18], "accepted": 8, "sampled": [220, 18, 20, 220, 18, 21, 220, 18, 22]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 18, 23, 220, 18, 24, 220, 19], "accepted": 8, "sampled": [220, 18, 23, 220, 18, 24, 220, 19, 15]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 19, 16, 220, 19, 17, 220, 19], "accepted": 8, "sampled": [220, 19, 16, 220, 19, 17, 220, 19, 18]}]}
+{"type": "verify", "rows": [{"req_id": "8", "draft": [220, 19, 19, 220, 19, 20, 220, 19], "accepted": 8, "sampled": [220, 19, 19, 220, 19, 20, 220, 19, 21]}]}
