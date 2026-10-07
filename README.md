@@ -1,5 +1,7 @@
 # RecallSpec：跨请求续写缓存与目标模型验证
 
+完整实验方法、对照结果与结论边界见 [EXPERIMENT_REPORT.md](EXPERIMENT_REPORT.md)。
+
 ## 项目定位
 
 vLLM 0.11.0 自带的 n-gram speculative decoding 只在**当前请求**的历史 token 中寻找续写。本项目为它增加一个容量受限的跨请求索引：若本地没有草稿，则用当前请求末尾的 12 或 8 个 token 查找先前请求中已经生成过的后续 8 个 token，交给原有 speculative decoding 路径，由目标模型验证。这是一个**单租户离线原型**，不能直接部署到多租户服务。
