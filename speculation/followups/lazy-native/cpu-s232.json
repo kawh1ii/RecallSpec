@@ -1,0 +1,7811 @@
+{
+  "seed": 232,
+  "groups": [
+    {
+      "batch": 1,
+      "context_tokens": 128,
+      "shared_hits": 0,
+      "original_median_us": 593.492,
+      "candidate_median_us": 712.7075,
+      "original": [
+        {
+          "ns": 421599,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 36355
+        },
+        {
+          "ns": 525367,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 47723
+        },
+        {
+          "ns": 341899,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 48369
+        },
+        {
+          "ns": 324647,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 31894
+        },
+        {
+          "ns": 333520,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 35393
+        },
+        {
+          "ns": 1618248,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 192552
+        },
+        {
+          "ns": 1187985,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 138687
+        },
+        {
+          "ns": 1071841,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 112469
+        },
+        {
+          "ns": 801216,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 83330
+        },
+        {
+          "ns": 806427,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 80756
+        },
+        {
+          "ns": 800831,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 82282
+        },
+        {
+          "ns": 799432,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 77150
+        },
+        {
+          "ns": 792378,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 79720
+        },
+        {
+          "ns": 539535,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 53785
+        },
+        {
+          "ns": 553784,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 55028
+        },
+        {
+          "ns": 547955,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 56488
+        },
+        {
+          "ns": 545316,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 55351
+        },
+        {
+          "ns": 538347,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 53382
+        },
+        {
+          "ns": 540567,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 53321
+        },
+        {
+          "ns": 540648,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 52139
+        },
+        {
+          "ns": 538453,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 54064
+        },
+        {
+          "ns": 406098,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 51626
+        },
+        {
+          "ns": 359449,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 34494
+        },
+        {
+          "ns": 367342,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 34246
+        },
+        {
+          "ns": 359512,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 35882
+        },
+        {
+          "ns": 409944,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 38615
+        },
+        {
+          "ns": 362685,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 38982
+        },
+        {
+          "ns": 358036,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 35695
+        },
+        {
+          "ns": 60764454,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 36165
+        },
+        {
+          "ns": 1102523,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 112072
+        },
+        {
+          "ns": 1098779,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 110556
+        },
+        {
+          "ns": 1079426,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 108751
+        },
+        {
+          "ns": 1826055,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 123195
+        },
+        {
+          "ns": 1071795,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 105984
+        },
+        {
+          "ns": 1083277,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 109852
+        },
+        {
+          "ns": 728024,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 81098
+        },
+        {
+          "ns": 740248,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 84947
+        },
+        {
+          "ns": 709244,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 70492
+        },
+        {
+          "ns": 729202,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 71582
+        },
+        {
+          "ns": 755805,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 96650
+        },
+        {
+          "ns": 744169,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 76572
+        },
+        {
+          "ns": 619008,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 76411
+        },
+        {
+          "ns": 487807,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 55542
+        },
+        {
+          "ns": 476284,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 47443
+        },
+        {
+          "ns": 483714,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 49566
+        },
+        {
+          "ns": 819917,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 45817
+        },
+        {
+          "ns": 514403,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 80192
+        },
+        {
+          "ns": 473265,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 44675
+        },
+        {
+          "ns": 478293,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 47478
+        },
+        {
+          "ns": 327208,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 31771
+        },
+        {
+          "ns": 329053,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 32737
+        },
+        {
+          "ns": 327389,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 31740
+        },
+        {
+          "ns": 330154,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 32694
+        },
+        {
+          "ns": 567976,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 34409
+        },
+        {
+          "ns": 339119,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 40736
+        },
+        {
+          "ns": 1306957,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 233155
+        },
+        {
+          "ns": 1126444,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 140214
+        },
+        {
+          "ns": 1079773,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 110529
+        },
+        {
+          "ns": 1101038,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 111725
+        },
+        {
+          "ns": 922311,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 114779
+        },
+        {
+          "ns": 1345996,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 102561
+        },
+        {
+          "ns": 788162,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 75874
+        },
+        {
+          "ns": 785731,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 79605
+        },
+        {
+          "ns": 795597,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 76442
+        }
+      ],
+      "candidate": [
+        {
+          "ns": 523385,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 66207
+        },
+        {
+          "ns": 479691,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 56625
+        },
+        {
+          "ns": 333737,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 33490
+        },
+        {
+          "ns": 335055,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 33840
+        },
+        {
+          "ns": 56681903,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 33300
+        },
+        {
+          "ns": 1619036,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 275560
+        },
+        {
+          "ns": 1133291,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 123925
+        },
+        {
+          "ns": 1141640,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 123243
+        },
+        {
+          "ns": 874714,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 81491
+        },
+        {
+          "ns": 814397,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 86893
+        },
+        {
+          "ns": 804085,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 79407
+        },
+        {
+          "ns": 813196,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 81862
+        },
+        {
+          "ns": 860440,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 78373
+        },
+        {
+          "ns": 757510,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 80443
+        },
+        {
+          "ns": 834830,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 52142
+        },
+        {
+          "ns": 584165,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 77913
+        },
+        {
+          "ns": 604286,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 52923
+        },
+        {
+          "ns": 549073,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 56149
+        },
+        {
+          "ns": 545935,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 53557
+        },
+        {
+          "ns": 548191,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 53471
+        },
+        {
+          "ns": 547786,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 51909
+        },
+        {
+          "ns": 542571,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 53260
+        },
+        {
+          "ns": 365067,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 35349
+        },
+        {
+          "ns": 371003,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 36885
+        },
+        {
+          "ns": 462529,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 37297
+        },
+        {
+          "ns": 424209,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 60156
+        },
+        {
+          "ns": 360931,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 34577
+        },
+        {
+          "ns": 365287,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 35928
+        },
+        {
+          "ns": 1265235,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 227814
+        },
+        {
+          "ns": 1127920,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 118143
+        },
+        {
+          "ns": 1094987,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 109103
+        },
+        {
+          "ns": 1126841,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 111133
+        },
+        {
+          "ns": 1117843,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 125430
+        },
+        {
+          "ns": 1096387,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 108876
+        },
+        {
+          "ns": 1044995,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 105001
+        },
+        {
+          "ns": 740199,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 74910
+        },
+        {
+          "ns": 739502,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 72420
+        },
+        {
+          "ns": 732989,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 74837
+        },
+        {
+          "ns": 733468,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 80559
+        },
+        {
+          "ns": 1167305,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 90671
+        },
+        {
+          "ns": 565299,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 73364
+        },
+        {
+          "ns": 692426,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 48541
+        },
+        {
+          "ns": 484139,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 47133
+        },
+        {
+          "ns": 497987,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 48636
+        },
+        {
+          "ns": 481381,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 47541
+        },
+        {
+          "ns": 484797,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 48197
+        },
+        {
+          "ns": 490422,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 50264
+        },
+        {
+          "ns": 487403,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 47587
+        },
+        {
+          "ns": 477773,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 45662
+        },
+        {
+          "ns": 347468,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 39369
+        },
+        {
+          "ns": 358242,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 33703
+        },
+        {
+          "ns": 338025,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 36645
+        },
+        {
+          "ns": 330708,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 31878
+        },
+        {
+          "ns": 335681,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 33043
+        },
+        {
+          "ns": 333133,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 32522
+        },
+        {
+          "ns": 56668663,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 32770
+        },
+        {
+          "ns": 1151429,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 114015
+        },
+        {
+          "ns": 1107698,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 117281
+        },
+        {
+          "ns": 1089916,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 107251
+        },
+        {
+          "ns": 1101526,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 107720
+        },
+        {
+          "ns": 818366,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 98476
+        },
+        {
+          "ns": 798676,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 82202
+        },
+        {
+          "ns": 792410,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 77250
+        },
+        {
+          "ns": 790893,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 77142
+        }
+      ],
+      "exact_cases": 68
+    },
+    {
+      "batch": 1,
+      "context_tokens": 128,
+      "shared_hits": 1,
+      "original_median_us": 521.2925,
+      "candidate_median_us": 477.6885,
+      "original": [
+        {
+          "ns": 546233,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 59191
+        },
+        {
+          "ns": 541524,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 57766
+        },
+        {
+          "ns": 545318,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 55667
+        },
+        {
+          "ns": 539997,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 56010
+        },
+        {
+          "ns": 591040,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 54861
+        },
+        {
+          "ns": 395690,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 62722
+        },
+        {
+          "ns": 362718,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 39499
+        },
+        {
+          "ns": 376650,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 52756
+        },
+        {
+          "ns": 367665,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 38717
+        },
+        {
+          "ns": 367688,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 45466
+        },
+        {
+          "ns": 361768,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 38188
+        },
+        {
+          "ns": 362389,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 38303
+        },
+        {
+          "ns": 362933,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 37005
+        },
+        {
+          "ns": 362786,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 37846
+        },
+        {
+          "ns": 361211,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 36965
+        },
+        {
+          "ns": 365881,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 42556
+        },
+        {
+          "ns": 361136,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 37083
+        },
+        {
+          "ns": 56099188,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 32722
+        },
+        {
+          "ns": 1891799,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 232055
+        },
+        {
+          "ns": 1170473,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 178356
+        },
+        {
+          "ns": 1105767,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 118040
+        },
+        {
+          "ns": 1097393,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 124924
+        },
+        {
+          "ns": 1090356,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 112280
+        },
+        {
+          "ns": 814657,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 102418
+        },
+        {
+          "ns": 790498,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 80611
+        },
+        {
+          "ns": 965422,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 88012
+        },
+        {
+          "ns": 1073961,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 108630
+        },
+        {
+          "ns": 513511,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 56138
+        },
+        {
+          "ns": 515955,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 51843
+        },
+        {
+          "ns": 509911,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 54972
+        },
+        {
+          "ns": 517093,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 51282
+        },
+        {
+          "ns": 512403,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 54048
+        },
+        {
+          "ns": 525492,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 52376
+        },
+        {
+          "ns": 516536,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 53631
+        },
+        {
+          "ns": 515150,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 51205
+        },
+        {
+          "ns": 515965,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 52826
+        },
+        {
+          "ns": 416388,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 52438
+        },
+        {
+          "ns": 333936,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 34317
+        },
+        {
+          "ns": 497800,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 33729
+        },
+        {
+          "ns": 789001,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 98082
+        },
+        {
+          "ns": 593606,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 62447
+        },
+        {
+          "ns": 359854,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 54730
+        },
+        {
+          "ns": 341721,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 38126
+        },
+        {
+          "ns": 339782,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 37255
+        },
+        {
+          "ns": 339871,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 36294
+        },
+        {
+          "ns": 337979,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 36771
+        },
+        {
+          "ns": 336783,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 34483
+        },
+        {
+          "ns": 308225,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 34934
+        },
+        {
+          "ns": 275918,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 28595
+        },
+        {
+          "ns": 1206026,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 207302
+        },
+        {
+          "ns": 1115880,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 130215
+        },
+        {
+          "ns": 1119150,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 121754
+        },
+        {
+          "ns": 1722574,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 115862
+        },
+        {
+          "ns": 1499791,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 151594
+        },
+        {
+          "ns": 1133085,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 143907
+        },
+        {
+          "ns": 920695,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 92766
+        },
+        {
+          "ns": 833789,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 97246
+        },
+        {
+          "ns": 845779,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 59888
+        },
+        {
+          "ns": 985239,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 112877
+        },
+        {
+          "ns": 957950,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 117345
+        },
+        {
+          "ns": 878014,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 101658
+        },
+        {
+          "ns": 586995,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 67131
+        },
+        {
+          "ns": 588994,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 61512
+        },
+        {
+          "ns": 379757,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 40576
+        }
+      ],
+      "candidate": [
+        {
+          "ns": 476314,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 489279,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 477091,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 486413,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 473052,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 478286,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 573511,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 321276,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 320281,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 324033,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 318973,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 325247,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 316666,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 323641,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 315400,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 349075,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 317261,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 279528,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1607337,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1699831,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 952077,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 986691,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 952618,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 983211,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 697225,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1227273,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1255071,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 735291,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 448566,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 464380,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 482149,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 462104,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 449221,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 455503,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 453461,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 453412,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 292060,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 298499,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 484255,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 640994,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 578641,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 419040,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 295098,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 306444,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 294464,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 301312,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 294737,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 300502,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 52836177,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 995726,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 959219,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 974634,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1319558,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1377172,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 767825,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 775627,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 509594,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 520932,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 852249,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 830286,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 511262,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 519093,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 358691,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 342914,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        }
+      ],
+      "exact_cases": 68
+    },
+    {
+      "batch": 1,
+      "context_tokens": 1024,
+      "shared_hits": 0,
+      "original_median_us": 706.5545,
+      "candidate_median_us": 645.201,
+      "original": [
+        {
+          "ns": 384802,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 40900
+        },
+        {
+          "ns": 376794,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 38007
+        },
+        {
+          "ns": 379054,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 39131
+        },
+        {
+          "ns": 1133151,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 142258
+        },
+        {
+          "ns": 1097377,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 119222
+        },
+        {
+          "ns": 1134284,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 109409
+        },
+        {
+          "ns": 1122703,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 125804
+        },
+        {
+          "ns": 1097011,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 110275
+        },
+        {
+          "ns": 1095337,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 115504
+        },
+        {
+          "ns": 1125137,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 143323
+        },
+        {
+          "ns": 738704,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 78826
+        },
+        {
+          "ns": 721912,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 74427
+        },
+        {
+          "ns": 728726,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 75169
+        },
+        {
+          "ns": 732103,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 70756
+        },
+        {
+          "ns": 731612,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 77721
+        },
+        {
+          "ns": 535408,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 74664
+        },
+        {
+          "ns": 555348,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 53568
+        },
+        {
+          "ns": 517220,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 54349
+        },
+        {
+          "ns": 785326,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 55138
+        },
+        {
+          "ns": 803695,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 72070
+        },
+        {
+          "ns": 922184,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 91688
+        },
+        {
+          "ns": 520105,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 59089
+        },
+        {
+          "ns": 456863,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 56491
+        },
+        {
+          "ns": 334963,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 33939
+        },
+        {
+          "ns": 340371,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 36320
+        },
+        {
+          "ns": 1890189,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 269924
+        },
+        {
+          "ns": 1914265,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 219398
+        },
+        {
+          "ns": 1042507,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 109038
+        },
+        {
+          "ns": 1377521,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 92387
+        },
+        {
+          "ns": 862579,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 87534
+        },
+        {
+          "ns": 874532,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 91399
+        },
+        {
+          "ns": 877426,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 94399
+        },
+        {
+          "ns": 691197,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 95059
+        },
+        {
+          "ns": 620047,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 61306
+        },
+        {
+          "ns": 619722,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 64261
+        },
+        {
+          "ns": 649862,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 74444
+        },
+        {
+          "ns": 637928,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 73342
+        },
+        {
+          "ns": 617779,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 62591
+        },
+        {
+          "ns": 569585,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 66080
+        },
+        {
+          "ns": 414575,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 43410
+        },
+        {
+          "ns": 421576,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 45255
+        },
+        {
+          "ns": 415329,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 40985
+        },
+        {
+          "ns": 416693,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 43315
+        },
+        {
+          "ns": 415582,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 44047
+        },
+        {
+          "ns": 419691,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 44745
+        },
+        {
+          "ns": 415772,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 41450
+        },
+        {
+          "ns": 415188,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 44345
+        },
+        {
+          "ns": 409533,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 41343
+        },
+        {
+          "ns": 593377,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 48344
+        },
+        {
+          "ns": 278129,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 27680
+        },
+        {
+          "ns": 281641,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 29700
+        },
+        {
+          "ns": 280419,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 28247
+        },
+        {
+          "ns": 285032,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 29656
+        },
+        {
+          "ns": 1962254,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 369717
+        },
+        {
+          "ns": 1981640,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 165373
+        },
+        {
+          "ns": 1095857,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 107588
+        },
+        {
+          "ns": 1134922,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 142208
+        },
+        {
+          "ns": 1145133,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 156479
+        },
+        {
+          "ns": 882083,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 147850
+        },
+        {
+          "ns": 800992,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 79336
+        },
+        {
+          "ns": 839939,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 86211
+        },
+        {
+          "ns": 791579,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 80132
+        },
+        {
+          "ns": 790596,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 83441
+        },
+        {
+          "ns": 548654,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 59494
+        }
+      ],
+      "candidate": [
+        {
+          "ns": 383538,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 38831
+        },
+        {
+          "ns": 389142,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 39268
+        },
+        {
+          "ns": 382211,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 38125
+        },
+        {
+          "ns": 60674662,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 39324
+        },
+        {
+          "ns": 1117017,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 109340
+        },
+        {
+          "ns": 1113122,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 111716
+        },
+        {
+          "ns": 1109971,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 115055
+        },
+        {
+          "ns": 1113681,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 115068
+        },
+        {
+          "ns": 1095654,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 112862
+        },
+        {
+          "ns": 1149150,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 113907
+        },
+        {
+          "ns": 746763,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 74528
+        },
+        {
+          "ns": 753702,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 78354
+        },
+        {
+          "ns": 737277,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 73310
+        },
+        {
+          "ns": 744125,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 77188
+        },
+        {
+          "ns": 728239,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 73739
+        },
+        {
+          "ns": 778987,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 93038
+        },
+        {
+          "ns": 527900,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 60560
+        },
+        {
+          "ns": 527775,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 54315
+        },
+        {
+          "ns": 858969,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 84039
+        },
+        {
+          "ns": 1085840,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 86442
+        },
+        {
+          "ns": 556794,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 62131
+        },
+        {
+          "ns": 585504,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 59458
+        },
+        {
+          "ns": 345059,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 36426
+        },
+        {
+          "ns": 343366,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 35546
+        },
+        {
+          "ns": 339529,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 34777
+        },
+        {
+          "ns": 61300747,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 35724
+        },
+        {
+          "ns": 1354784,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 183061
+        },
+        {
+          "ns": 1135808,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 122027
+        },
+        {
+          "ns": 941508,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 106022
+        },
+        {
+          "ns": 897183,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 94330
+        },
+        {
+          "ns": 894430,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 87375
+        },
+        {
+          "ns": 1521925,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 121169
+        },
+        {
+          "ns": 630729,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 64018
+        },
+        {
+          "ns": 641434,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 64522
+        },
+        {
+          "ns": 625794,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 61456
+        },
+        {
+          "ns": 1985464,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 344182
+        },
+        {
+          "ns": 648968,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 69403
+        },
+        {
+          "ns": 639132,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 66682
+        },
+        {
+          "ns": 418842,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 41905
+        },
+        {
+          "ns": 441814,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 50175
+        },
+        {
+          "ns": 420236,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 42655
+        },
+        {
+          "ns": 425378,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 42272
+        },
+        {
+          "ns": 418398,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 42430
+        },
+        {
+          "ns": 429638,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 49716
+        },
+        {
+          "ns": 419855,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 42085
+        },
+        {
+          "ns": 428398,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 45660
+        },
+        {
+          "ns": 413395,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 40867
+        },
+        {
+          "ns": 422756,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 45058
+        },
+        {
+          "ns": 353673,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 62429
+        },
+        {
+          "ns": 295752,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 38181
+        },
+        {
+          "ns": 283790,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 28973
+        },
+        {
+          "ns": 286020,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 29536
+        },
+        {
+          "ns": 286611,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 30512
+        },
+        {
+          "ns": 288219,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 29401
+        },
+        {
+          "ns": 1179081,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 157116
+        },
+        {
+          "ns": 1121879,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 120004
+        },
+        {
+          "ns": 1106848,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 116641
+        },
+        {
+          "ns": 1154500,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 122173
+        },
+        {
+          "ns": 833765,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 104379
+        },
+        {
+          "ns": 829429,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 92431
+        },
+        {
+          "ns": 1274349,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 92545
+        },
+        {
+          "ns": 857513,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 102871
+        },
+        {
+          "ns": 550978,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 55734
+        },
+        {
+          "ns": 559031,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 59957
+        }
+      ],
+      "exact_cases": 68
+    },
+    {
+      "batch": 1,
+      "context_tokens": 1024,
+      "shared_hits": 1,
+      "original_median_us": 602.4105,
+      "candidate_median_us": 533.6935,
+      "original": [
+        {
+          "ns": 558529,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 61369
+        },
+        {
+          "ns": 558590,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 69827
+        },
+        {
+          "ns": 389492,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 58636
+        },
+        {
+          "ns": 370842,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 44354
+        },
+        {
+          "ns": 369905,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 39941
+        },
+        {
+          "ns": 371193,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 43641
+        },
+        {
+          "ns": 371123,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 40757
+        },
+        {
+          "ns": 367825,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 41140
+        },
+        {
+          "ns": 382741,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 39842
+        },
+        {
+          "ns": 384640,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 46479
+        },
+        {
+          "ns": 371709,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 40648
+        },
+        {
+          "ns": 373122,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 46074
+        },
+        {
+          "ns": 368382,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 39289
+        },
+        {
+          "ns": 367712,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 39439
+        },
+        {
+          "ns": 359557,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 38151
+        },
+        {
+          "ns": 294824,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 47653
+        },
+        {
+          "ns": 275882,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 30556
+        },
+        {
+          "ns": 274856,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 30318
+        },
+        {
+          "ns": 278850,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 29667
+        },
+        {
+          "ns": 275869,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 30491
+        },
+        {
+          "ns": 1579888,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 314191
+        },
+        {
+          "ns": 1640126,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 157269
+        },
+        {
+          "ns": 1228341,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 189216
+        },
+        {
+          "ns": 1147980,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 156439
+        },
+        {
+          "ns": 1132895,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 130084
+        },
+        {
+          "ns": 1113468,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 126208
+        },
+        {
+          "ns": 994572,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 120850
+        },
+        {
+          "ns": 750431,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 91836
+        },
+        {
+          "ns": 737057,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 79672
+        },
+        {
+          "ns": 788547,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 125611
+        },
+        {
+          "ns": 744808,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 82257
+        },
+        {
+          "ns": 717103,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 97018
+        },
+        {
+          "ns": 490830,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 53128
+        },
+        {
+          "ns": 507031,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 69440
+        },
+        {
+          "ns": 496694,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 55926
+        },
+        {
+          "ns": 493709,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 56951
+        },
+        {
+          "ns": 491319,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 53298
+        },
+        {
+          "ns": 490018,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 53818
+        },
+        {
+          "ns": 497202,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 50917
+        },
+        {
+          "ns": 495177,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 55455
+        },
+        {
+          "ns": 491813,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 52606
+        },
+        {
+          "ns": 327664,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 36867
+        },
+        {
+          "ns": 60626502,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 34796
+        },
+        {
+          "ns": 1890512,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 247567
+        },
+        {
+          "ns": 1814626,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 166081
+        },
+        {
+          "ns": 1490151,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 181669
+        },
+        {
+          "ns": 1306086,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 119342
+        },
+        {
+          "ns": 1332156,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 137811
+        },
+        {
+          "ns": 1311867,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 123364
+        },
+        {
+          "ns": 905568,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 92433
+        },
+        {
+          "ns": 898262,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 84181
+        },
+        {
+          "ns": 905429,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 92450
+        },
+        {
+          "ns": 895617,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 82778
+        },
+        {
+          "ns": 899575,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 89755
+        },
+        {
+          "ns": 599917,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 56988
+        },
+        {
+          "ns": 607218,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 64576
+        },
+        {
+          "ns": 598313,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 55956
+        },
+        {
+          "ns": 604904,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 60910
+        },
+        {
+          "ns": 621654,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 56280
+        },
+        {
+          "ns": 649008,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 67710
+        },
+        {
+          "ns": 635179,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 61126
+        },
+        {
+          "ns": 1279642,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 242065
+        },
+        {
+          "ns": 1274990,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 143246
+        },
+        {
+          "ns": 1170046,
+          "calls": 1,
+          "rows": 1,
+          "native_ns": 148439
+        }
+      ],
+      "candidate": [
+        {
+          "ns": 481764,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 492128,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 320840,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 329302,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 323675,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 335626,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 320611,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 327339,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 325993,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 327172,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 322852,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 324750,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 323676,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 324543,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 595771,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 258303,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 241527,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 244131,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 240423,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 244552,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 985378,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1017854,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 978100,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1035399,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 972118,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 990409,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 647658,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 694560,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 637961,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1276259,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 643044,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 650953,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 490705,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 449239,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 434076,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 434247,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 429658,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 439366,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 427035,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 438114,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 292818,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 291136,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1160533,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1649682,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1600575,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1629894,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1161630,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1168895,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1167195,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 817646,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 799111,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 803747,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 802699,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 805334,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 536101,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 552005,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 531286,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 538636,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 572115,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 407325,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 456945,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 56787005,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1485542,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 993423,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        }
+      ],
+      "exact_cases": 68
+    },
+    {
+      "batch": 8,
+      "context_tokens": 128,
+      "shared_hits": 0,
+      "original_median_us": 4290.4215,
+      "candidate_median_us": 5500.593,
+      "original": [
+        {
+          "ns": 4228317,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 161167
+        },
+        {
+          "ns": 3102204,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 77432
+        },
+        {
+          "ns": 66199030,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 97273
+        },
+        {
+          "ns": 4499156,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 131536
+        },
+        {
+          "ns": 3855931,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 124580
+        },
+        {
+          "ns": 3162163,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 74133
+        },
+        {
+          "ns": 1943011,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 64734
+        },
+        {
+          "ns": 1966265,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 55051
+        },
+        {
+          "ns": 7634459,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 257983
+        },
+        {
+          "ns": 4149228,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 161790
+        },
+        {
+          "ns": 3871836,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 108639
+        },
+        {
+          "ns": 6282234,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 229136
+        },
+        {
+          "ns": 5827838,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 174696
+        },
+        {
+          "ns": 2478956,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 77223
+        },
+        {
+          "ns": 59329927,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 75738
+        },
+        {
+          "ns": 5440821,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 162095
+        },
+        {
+          "ns": 3859966,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 120910
+        },
+        {
+          "ns": 3188061,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 80831
+        },
+        {
+          "ns": 2591544,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 102668
+        },
+        {
+          "ns": 6321660,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 228032
+        },
+        {
+          "ns": 5518362,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 153349
+        },
+        {
+          "ns": 3078998,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 93998
+        },
+        {
+          "ns": 2362364,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 69969
+        },
+        {
+          "ns": 6286562,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 189912
+        },
+        {
+          "ns": 4688867,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 212464
+        },
+        {
+          "ns": 2768035,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 71443
+        },
+        {
+          "ns": 2658994,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 78205
+        },
+        {
+          "ns": 8440388,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 347591
+        },
+        {
+          "ns": 6237439,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 277148
+        },
+        {
+          "ns": 2873841,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 164775
+        },
+        {
+          "ns": 2382182,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 76305
+        },
+        {
+          "ns": 7923617,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 370301
+        },
+        {
+          "ns": 6884759,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 183328
+        },
+        {
+          "ns": 2964885,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 102568
+        },
+        {
+          "ns": 2394470,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 76121
+        },
+        {
+          "ns": 5977884,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 180828
+        },
+        {
+          "ns": 4618185,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 221237
+        },
+        {
+          "ns": 3830250,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 87856
+        },
+        {
+          "ns": 2409197,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 100678
+        },
+        {
+          "ns": 8901285,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 268213
+        },
+        {
+          "ns": 6432095,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 401424
+        },
+        {
+          "ns": 3794046,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 121604
+        },
+        {
+          "ns": 2468044,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 114451
+        },
+        {
+          "ns": 6235021,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 169929
+        },
+        {
+          "ns": 5008582,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 175110
+        },
+        {
+          "ns": 4875697,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 149092
+        },
+        {
+          "ns": 7882040,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 322817
+        },
+        {
+          "ns": 4352526,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 452197
+        },
+        {
+          "ns": 3650698,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 124151
+        },
+        {
+          "ns": 2653036,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 114915
+        },
+        {
+          "ns": 2170078,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 75761
+        },
+        {
+          "ns": 8387716,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 197533
+        },
+        {
+          "ns": 5217929,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 208102
+        },
+        {
+          "ns": 3577939,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 107062
+        },
+        {
+          "ns": 67947019,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 80181
+        },
+        {
+          "ns": 4787279,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 125285
+        },
+        {
+          "ns": 4173707,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 144162
+        },
+        {
+          "ns": 2871682,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 72719
+        },
+        {
+          "ns": 60858527,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 59744
+        },
+        {
+          "ns": 4661383,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 210035
+        },
+        {
+          "ns": 3644286,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 134810
+        },
+        {
+          "ns": 2753658,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 116647
+        },
+        {
+          "ns": 64409285,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 76195
+        },
+        {
+          "ns": 5266807,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 203244
+        }
+      ],
+      "candidate": [
+        {
+          "ns": 3939410,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 122068
+        },
+        {
+          "ns": 2714967,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 119217
+        },
+        {
+          "ns": 6539507,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 323133
+        },
+        {
+          "ns": 5913711,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 273745
+        },
+        {
+          "ns": 3084201,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 89785
+        },
+        {
+          "ns": 2928017,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 87402
+        },
+        {
+          "ns": 1949931,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 61105
+        },
+        {
+          "ns": 1941875,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 57950
+        },
+        {
+          "ns": 6819380,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 241042
+        },
+        {
+          "ns": 5679662,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 162293
+        },
+        {
+          "ns": 74442858,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 104461
+        },
+        {
+          "ns": 7982502,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 269891
+        },
+        {
+          "ns": 5699540,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 160368
+        },
+        {
+          "ns": 3529075,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 153939
+        },
+        {
+          "ns": 7831128,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 261912
+        },
+        {
+          "ns": 6439463,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 216156
+        },
+        {
+          "ns": 4985741,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 106514
+        },
+        {
+          "ns": 2654134,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 116581
+        },
+        {
+          "ns": 60975546,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 69526
+        },
+        {
+          "ns": 7939943,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 268493
+        },
+        {
+          "ns": 4137980,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 94534
+        },
+        {
+          "ns": 3689421,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 116837
+        },
+        {
+          "ns": 59313411,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 69379
+        },
+        {
+          "ns": 9570410,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 253893
+        },
+        {
+          "ns": 6617582,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 124583
+        },
+        {
+          "ns": 2866769,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 154208
+        },
+        {
+          "ns": 2499213,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 70450
+        },
+        {
+          "ns": 12047721,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 410746
+        },
+        {
+          "ns": 3551846,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 130635
+        },
+        {
+          "ns": 4675257,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 118329
+        },
+        {
+          "ns": 2413529,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 69384
+        },
+        {
+          "ns": 60130640,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 52115478
+        },
+        {
+          "ns": 4804191,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 180902
+        },
+        {
+          "ns": 3731135,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 133999
+        },
+        {
+          "ns": 69086898,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 132929
+        },
+        {
+          "ns": 6911141,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 222587
+        },
+        {
+          "ns": 2992542,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 85725
+        },
+        {
+          "ns": 3296299,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 86445
+        },
+        {
+          "ns": 2047096,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 63484
+        },
+        {
+          "ns": 54104071,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 64214
+        },
+        {
+          "ns": 5818937,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 171848
+        },
+        {
+          "ns": 5226697,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 127932
+        },
+        {
+          "ns": 63194084,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 66936
+        },
+        {
+          "ns": 7633103,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 277970
+        },
+        {
+          "ns": 5321524,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 120928
+        },
+        {
+          "ns": 4897569,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 137552
+        },
+        {
+          "ns": 7524376,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 229090
+        },
+        {
+          "ns": 7208641,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 166609
+        },
+        {
+          "ns": 4142154,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 111972
+        },
+        {
+          "ns": 2990985,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 96868
+        },
+        {
+          "ns": 54845761,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 63971
+        },
+        {
+          "ns": 7799929,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 254431
+        },
+        {
+          "ns": 4462982,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 160865
+        },
+        {
+          "ns": 4620096,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 162145
+        },
+        {
+          "ns": 6996910,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 277881
+        },
+        {
+          "ns": 5875095,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 187825
+        },
+        {
+          "ns": 2857808,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 88811
+        },
+        {
+          "ns": 2823337,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 88463
+        },
+        {
+          "ns": 8091908,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 317663
+        },
+        {
+          "ns": 8989866,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 232918
+        },
+        {
+          "ns": 4416975,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 99100
+        },
+        {
+          "ns": 2619276,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 102847
+        },
+        {
+          "ns": 6959039,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 308139
+        },
+        {
+          "ns": 6761675,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 208376
+        }
+      ],
+      "exact_cases": 68
+    },
+    {
+      "batch": 8,
+      "context_tokens": 128,
+      "shared_hits": 4,
+      "original_median_us": 4465.321,
+      "candidate_median_us": 4538.7625,
+      "original": [
+        {
+          "ns": 3621646,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 111864
+        },
+        {
+          "ns": 3055792,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 111314
+        },
+        {
+          "ns": 59726672,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 69373
+        },
+        {
+          "ns": 4461341,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 126273
+        },
+        {
+          "ns": 5083460,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 135070
+        },
+        {
+          "ns": 7661875,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 254446
+        },
+        {
+          "ns": 4631639,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 191426
+        },
+        {
+          "ns": 2808191,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 74685
+        },
+        {
+          "ns": 8743576,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 280480
+        },
+        {
+          "ns": 4156951,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 119166
+        },
+        {
+          "ns": 3838215,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 129260
+        },
+        {
+          "ns": 66491233,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 73883
+        },
+        {
+          "ns": 7746531,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 257195
+        },
+        {
+          "ns": 3683509,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 107993
+        },
+        {
+          "ns": 3922964,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 109512
+        },
+        {
+          "ns": 59596594,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 65936
+        },
+        {
+          "ns": 7557272,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 269181
+        },
+        {
+          "ns": 4759667,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 126127
+        },
+        {
+          "ns": 3241367,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 96365
+        },
+        {
+          "ns": 2138081,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 59836
+        },
+        {
+          "ns": 2122267,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 63197
+        },
+        {
+          "ns": 6685134,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 219746
+        },
+        {
+          "ns": 5673882,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 165592
+        },
+        {
+          "ns": 2920263,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 104895
+        },
+        {
+          "ns": 2465742,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 73796
+        },
+        {
+          "ns": 7226971,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 307699
+        },
+        {
+          "ns": 5917951,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 220437
+        },
+        {
+          "ns": 3469205,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 106263
+        },
+        {
+          "ns": 3215042,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 98864
+        },
+        {
+          "ns": 5895461,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 285983
+        },
+        {
+          "ns": 5424440,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 171167
+        },
+        {
+          "ns": 2494521,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 75047
+        },
+        {
+          "ns": 2474863,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 72183
+        },
+        {
+          "ns": 9168676,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 227451
+        },
+        {
+          "ns": 5215268,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 201533
+        },
+        {
+          "ns": 2919837,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 112883
+        },
+        {
+          "ns": 2648577,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 74786
+        },
+        {
+          "ns": 6139735,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 157588
+        },
+        {
+          "ns": 4055188,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 190996
+        },
+        {
+          "ns": 2615725,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 74920
+        },
+        {
+          "ns": 3258264,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 115548
+        },
+        {
+          "ns": 7965480,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 293467
+        },
+        {
+          "ns": 7485208,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 333781
+        },
+        {
+          "ns": 4975201,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 170209
+        },
+        {
+          "ns": 2585012,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 107476
+        },
+        {
+          "ns": 6727465,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 645000
+        },
+        {
+          "ns": 4652753,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 187155
+        },
+        {
+          "ns": 4571796,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 71261
+        },
+        {
+          "ns": 2633832,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 95655
+        },
+        {
+          "ns": 7190606,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 249005
+        },
+        {
+          "ns": 4469301,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 184014
+        },
+        {
+          "ns": 2412637,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 73813
+        },
+        {
+          "ns": 2375335,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 72561
+        },
+        {
+          "ns": 5598597,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 184631
+        },
+        {
+          "ns": 5187821,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 131303
+        },
+        {
+          "ns": 3344966,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 85756
+        },
+        {
+          "ns": 2518174,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 130642
+        },
+        {
+          "ns": 5311822,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 226478
+        },
+        {
+          "ns": 4742631,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 161335
+        },
+        {
+          "ns": 3108142,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 96412
+        },
+        {
+          "ns": 2424624,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 139422
+        },
+        {
+          "ns": 6687286,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 158764
+        },
+        {
+          "ns": 3934155,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 153115
+        },
+        {
+          "ns": 3125334,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 110532
+        }
+      ],
+      "candidate": [
+        {
+          "ns": 3033463,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 87940
+        },
+        {
+          "ns": 4089882,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 133206
+        },
+        {
+          "ns": 8574899,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 250778
+        },
+        {
+          "ns": 5172749,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 206240
+        },
+        {
+          "ns": 69268715,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 113606
+        },
+        {
+          "ns": 7825631,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 246714
+        },
+        {
+          "ns": 4621057,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 98327
+        },
+        {
+          "ns": 3578966,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 115912
+        },
+        {
+          "ns": 6435643,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 185966
+        },
+        {
+          "ns": 5138769,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 171233
+        },
+        {
+          "ns": 2856680,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 69659
+        },
+        {
+          "ns": 2826228,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 76502
+        },
+        {
+          "ns": 5716066,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 146968
+        },
+        {
+          "ns": 4710946,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 148829
+        },
+        {
+          "ns": 2534783,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 72657
+        },
+        {
+          "ns": 2504940,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 65383
+        },
+        {
+          "ns": 6948045,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 188553
+        },
+        {
+          "ns": 4798449,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 124381
+        },
+        {
+          "ns": 3284738,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 79516
+        },
+        {
+          "ns": 3124256,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 83031
+        },
+        {
+          "ns": 55243387,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 56791
+        },
+        {
+          "ns": 7635846,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 199587
+        },
+        {
+          "ns": 3742882,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 102768
+        },
+        {
+          "ns": 4123546,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 93230
+        },
+        {
+          "ns": 2524041,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 63460
+        },
+        {
+          "ns": 63411700,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 63179
+        },
+        {
+          "ns": 5785871,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 136165
+        },
+        {
+          "ns": 4089299,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 219306
+        },
+        {
+          "ns": 2479453,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 69117
+        },
+        {
+          "ns": 11324260,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 320010
+        },
+        {
+          "ns": 5444234,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 147301
+        },
+        {
+          "ns": 3103627,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 104522
+        },
+        {
+          "ns": 59503468,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 59470
+        },
+        {
+          "ns": 7895153,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 254946
+        },
+        {
+          "ns": 3735037,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 141225
+        },
+        {
+          "ns": 4456468,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 142158
+        },
+        {
+          "ns": 65525073,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 93092
+        },
+        {
+          "ns": 5932854,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 239693
+        },
+        {
+          "ns": 3911329,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 99251
+        },
+        {
+          "ns": 2625032,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 75713
+        },
+        {
+          "ns": 2067742,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 70027
+        },
+        {
+          "ns": 56315090,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 59153
+        },
+        {
+          "ns": 5906676,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 147210
+        },
+        {
+          "ns": 3478335,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 108161
+        },
+        {
+          "ns": 2357489,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 60333
+        },
+        {
+          "ns": 9187062,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 270927
+        },
+        {
+          "ns": 3959836,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 105584
+        },
+        {
+          "ns": 3705550,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 101366
+        },
+        {
+          "ns": 62435458,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 77993
+        },
+        {
+          "ns": 7933526,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 275911
+        },
+        {
+          "ns": 4265610,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 101706
+        },
+        {
+          "ns": 3688133,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 112535
+        },
+        {
+          "ns": 64491522,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 57965
+        },
+        {
+          "ns": 6561963,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 233489
+        },
+        {
+          "ns": 3854867,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 136326
+        },
+        {
+          "ns": 3549593,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 79158
+        },
+        {
+          "ns": 63689070,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 317011
+        },
+        {
+          "ns": 7806619,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 216755
+        },
+        {
+          "ns": 3491362,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 89678
+        },
+        {
+          "ns": 3462474,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 88714
+        },
+        {
+          "ns": 64847069,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 80046
+        },
+        {
+          "ns": 5917848,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 241458
+        },
+        {
+          "ns": 3771374,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 104968
+        },
+        {
+          "ns": 2782456,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 73958
+        }
+      ],
+      "exact_cases": 68
+    },
+    {
+      "batch": 8,
+      "context_tokens": 128,
+      "shared_hits": 8,
+      "original_median_us": 3977.175,
+      "candidate_median_us": 3807.406,
+      "original": [
+        {
+          "ns": 2908953,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 106135
+        },
+        {
+          "ns": 3968263,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 173131
+        },
+        {
+          "ns": 3788109,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 144198
+        },
+        {
+          "ns": 3508706,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 154891
+        },
+        {
+          "ns": 3986087,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 109850
+        },
+        {
+          "ns": 3510936,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 164080
+        },
+        {
+          "ns": 55747351,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 119527
+        },
+        {
+          "ns": 3539241,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 166719
+        },
+        {
+          "ns": 3453458,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 122642
+        },
+        {
+          "ns": 3851747,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 158120
+        },
+        {
+          "ns": 2164702,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 140077
+        },
+        {
+          "ns": 64863837,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 103069
+        },
+        {
+          "ns": 7703306,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 381124
+        },
+        {
+          "ns": 3953268,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 170608
+        },
+        {
+          "ns": 3610808,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 124938
+        },
+        {
+          "ns": 2720971,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 129761
+        },
+        {
+          "ns": 54877239,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 97066
+        },
+        {
+          "ns": 5744587,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 242276
+        },
+        {
+          "ns": 4417339,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 170114
+        },
+        {
+          "ns": 3416488,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 141125
+        },
+        {
+          "ns": 2698425,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 153076
+        },
+        {
+          "ns": 8280512,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 258239
+        },
+        {
+          "ns": 4232962,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 173601
+        },
+        {
+          "ns": 73900002,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 153118
+        },
+        {
+          "ns": 6376942,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 283722
+        },
+        {
+          "ns": 5414513,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 203023
+        },
+        {
+          "ns": 2542747,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 132024
+        },
+        {
+          "ns": 10001098,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 392452
+        },
+        {
+          "ns": 5536685,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 253974
+        },
+        {
+          "ns": 3533303,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 168151
+        },
+        {
+          "ns": 2330390,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 92400
+        },
+        {
+          "ns": 5773656,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 231928
+        },
+        {
+          "ns": 4314840,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 174894
+        },
+        {
+          "ns": 2696563,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 146692
+        },
+        {
+          "ns": 63719138,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 90671
+        },
+        {
+          "ns": 6955178,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 237574
+        },
+        {
+          "ns": 3704015,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 162797
+        },
+        {
+          "ns": 2475798,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 118212
+        },
+        {
+          "ns": 58847744,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 92209
+        },
+        {
+          "ns": 5312827,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 264616
+        },
+        {
+          "ns": 4444911,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 165261
+        },
+        {
+          "ns": 4931414,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 119475
+        },
+        {
+          "ns": 58502068,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 116455
+        },
+        {
+          "ns": 6221934,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 237512
+        },
+        {
+          "ns": 3940839,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 169663
+        },
+        {
+          "ns": 3019971,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 121165
+        },
+        {
+          "ns": 2646512,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 126405
+        },
+        {
+          "ns": 5890279,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 283311
+        },
+        {
+          "ns": 5850156,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 158529
+        },
+        {
+          "ns": 2685937,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 163037
+        },
+        {
+          "ns": 2372035,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 83430
+        },
+        {
+          "ns": 6541081,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 227759
+        },
+        {
+          "ns": 3942286,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 171781
+        },
+        {
+          "ns": 3505140,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 161132
+        },
+        {
+          "ns": 2733621,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 147650
+        },
+        {
+          "ns": 5271396,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 231218
+        },
+        {
+          "ns": 6025902,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 255531
+        },
+        {
+          "ns": 3245629,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 131592
+        },
+        {
+          "ns": 2970921,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 136909
+        },
+        {
+          "ns": 5786794,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 251277
+        },
+        {
+          "ns": 5787454,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 187261
+        },
+        {
+          "ns": 3915187,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 181943
+        },
+        {
+          "ns": 2707247,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 129498
+        },
+        {
+          "ns": 8471375,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 298208
+        }
+      ],
+      "candidate": [
+        {
+          "ns": 55775086,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3364721,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3373840,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3317787,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3512355,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3329231,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3774649,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3351335,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3370779,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3419870,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1906510,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1884189,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 7112852,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3760666,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2551541,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2498768,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 7953347,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 6784704,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3565748,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2830962,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 55267163,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 7512475,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 4940149,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2710713,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 7213463,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3770516,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2468760,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 61938012,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 6589511,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3349817,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 59218911,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 9953513,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 4867751,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2952428,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 8587954,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 6156340,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3575718,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2387473,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 8661975,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 5999313,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3001658,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2841016,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 7529060,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 5892634,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3825017,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2501127,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 61888083,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 8256758,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3581657,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3842120,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 63266274,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 5944725,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3789795,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2502394,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 64442427,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 7209246,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3569797,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3194521,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 55253204,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 9416364,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3828315,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2603787,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 62663114,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 7538470,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        }
+      ],
+      "exact_cases": 68
+    },
+    {
+      "batch": 8,
+      "context_tokens": 1024,
+      "shared_hits": 0,
+      "original_median_us": 4191.715,
+      "candidate_median_us": 5014.179,
+      "original": [
+        {
+          "ns": 5866011,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 385924
+        },
+        {
+          "ns": 3088406,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 122068
+        },
+        {
+          "ns": 2952997,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 104551
+        },
+        {
+          "ns": 1953383,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 64160
+        },
+        {
+          "ns": 56575860,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 70144
+        },
+        {
+          "ns": 6237188,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 178252
+        },
+        {
+          "ns": 3702169,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 164897
+        },
+        {
+          "ns": 2537436,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 76347
+        },
+        {
+          "ns": 2497668,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 83910
+        },
+        {
+          "ns": 5280745,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 352990
+        },
+        {
+          "ns": 4211409,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 160967
+        },
+        {
+          "ns": 3259531,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 151519
+        },
+        {
+          "ns": 67254018,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 101839
+        },
+        {
+          "ns": 5172339,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 219605
+        },
+        {
+          "ns": 3708843,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 148989
+        },
+        {
+          "ns": 2586892,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 100964
+        },
+        {
+          "ns": 63395428,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 90357
+        },
+        {
+          "ns": 4244461,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 146354
+        },
+        {
+          "ns": 3975056,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 146417
+        },
+        {
+          "ns": 2917480,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 93815
+        },
+        {
+          "ns": 2072379,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 101994
+        },
+        {
+          "ns": 5776644,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 197370
+        },
+        {
+          "ns": 4311617,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 209304
+        },
+        {
+          "ns": 2546954,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 94543
+        },
+        {
+          "ns": 2806997,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 90863
+        },
+        {
+          "ns": 7060796,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 248565
+        },
+        {
+          "ns": 4466670,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 163678
+        },
+        {
+          "ns": 4181977,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 97446
+        },
+        {
+          "ns": 2615645,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 130903
+        },
+        {
+          "ns": 6384034,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 207609
+        },
+        {
+          "ns": 4352163,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 218794
+        },
+        {
+          "ns": 2527475,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 80654
+        },
+        {
+          "ns": 2498430,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 98775
+        },
+        {
+          "ns": 59628222,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 62336
+        },
+        {
+          "ns": 7283021,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 288070
+        },
+        {
+          "ns": 3878772,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 166194
+        },
+        {
+          "ns": 3567120,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 135856
+        },
+        {
+          "ns": 4564220,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 62109
+        },
+        {
+          "ns": 7351804,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 274318
+        },
+        {
+          "ns": 3907221,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 201209
+        },
+        {
+          "ns": 3721562,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 146907
+        },
+        {
+          "ns": 2562318,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 89040
+        },
+        {
+          "ns": 61265811,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 88495
+        },
+        {
+          "ns": 6244713,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 264291
+        },
+        {
+          "ns": 3728863,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 153258
+        },
+        {
+          "ns": 2457880,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 93778
+        },
+        {
+          "ns": 9255853,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 298515
+        },
+        {
+          "ns": 4438318,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 173825
+        },
+        {
+          "ns": 4179085,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 153872
+        },
+        {
+          "ns": 2659072,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 93122
+        },
+        {
+          "ns": 2293383,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 89851
+        },
+        {
+          "ns": 8279579,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 295759
+        },
+        {
+          "ns": 5267002,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 219985
+        },
+        {
+          "ns": 3403289,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 139426
+        },
+        {
+          "ns": 2418546,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 99642
+        },
+        {
+          "ns": 8018553,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 357862
+        },
+        {
+          "ns": 4201453,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 178123
+        },
+        {
+          "ns": 2921238,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 107301
+        },
+        {
+          "ns": 2117221,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 106186
+        },
+        {
+          "ns": 5853932,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 189897
+        },
+        {
+          "ns": 4991310,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 313239
+        },
+        {
+          "ns": 65148820,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 85372
+        },
+        {
+          "ns": 8212512,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 406503
+        },
+        {
+          "ns": 4722358,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 172449
+        }
+      ],
+      "candidate": [
+        {
+          "ns": 4610487,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 177784
+        },
+        {
+          "ns": 4591221,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 166197
+        },
+        {
+          "ns": 2375594,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 98076
+        },
+        {
+          "ns": 1960626,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 68299
+        },
+        {
+          "ns": 7939169,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 277871
+        },
+        {
+          "ns": 6070743,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 270540
+        },
+        {
+          "ns": 3752901,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 124827
+        },
+        {
+          "ns": 2681622,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 129567
+        },
+        {
+          "ns": 64614311,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 80533
+        },
+        {
+          "ns": 7070795,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 234904
+        },
+        {
+          "ns": 3981883,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 147372
+        },
+        {
+          "ns": 2796978,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 102479
+        },
+        {
+          "ns": 8106046,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 369592
+        },
+        {
+          "ns": 6348780,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 239837
+        },
+        {
+          "ns": 3689160,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 128097
+        },
+        {
+          "ns": 2828197,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 91850
+        },
+        {
+          "ns": 7722348,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 318614
+        },
+        {
+          "ns": 5394160,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 248706
+        },
+        {
+          "ns": 2888231,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 99019
+        },
+        {
+          "ns": 2864876,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 103282
+        },
+        {
+          "ns": 62590686,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 70537
+        },
+        {
+          "ns": 8131406,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 320401
+        },
+        {
+          "ns": 3931812,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 133820
+        },
+        {
+          "ns": 3650733,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 126203
+        },
+        {
+          "ns": 61081428,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 91180
+        },
+        {
+          "ns": 8100090,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 293187
+        },
+        {
+          "ns": 5017206,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 263704
+        },
+        {
+          "ns": 3127097,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 117817
+        },
+        {
+          "ns": 63083896,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 71687
+        },
+        {
+          "ns": 7606151,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 307167
+        },
+        {
+          "ns": 3720782,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 134388
+        },
+        {
+          "ns": 3645826,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 128757
+        },
+        {
+          "ns": 2535140,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 86288
+        },
+        {
+          "ns": 2251112,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 90544
+        },
+        {
+          "ns": 6287547,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 355790
+        },
+        {
+          "ns": 5021866,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 192492
+        },
+        {
+          "ns": 3088823,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 133906
+        },
+        {
+          "ns": 1964224,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 76463
+        },
+        {
+          "ns": 7210996,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 304051
+        },
+        {
+          "ns": 5783266,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 257624
+        },
+        {
+          "ns": 3560006,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 130403
+        },
+        {
+          "ns": 2533110,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 96883
+        },
+        {
+          "ns": 7988810,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 289199
+        },
+        {
+          "ns": 7300757,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 267276
+        },
+        {
+          "ns": 4259236,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 138448
+        },
+        {
+          "ns": 3178546,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 217376
+        },
+        {
+          "ns": 6402134,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 286193
+        },
+        {
+          "ns": 5996607,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 189974
+        },
+        {
+          "ns": 2692061,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 102976
+        },
+        {
+          "ns": 3033873,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 93707
+        },
+        {
+          "ns": 54215014,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 73670
+        },
+        {
+          "ns": 9184618,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 282112
+        },
+        {
+          "ns": 4685662,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 168042
+        },
+        {
+          "ns": 4084265,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 148173
+        },
+        {
+          "ns": 59936807,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 83717
+        },
+        {
+          "ns": 8696301,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 297890
+        },
+        {
+          "ns": 6136509,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 140157
+        },
+        {
+          "ns": 3211644,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 135387
+        },
+        {
+          "ns": 62022610,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 68589
+        },
+        {
+          "ns": 9168761,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 285028
+        },
+        {
+          "ns": 5011152,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 162893
+        },
+        {
+          "ns": 2838856,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 160524
+        },
+        {
+          "ns": 8479667,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 440089
+        },
+        {
+          "ns": 5255500,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 218494
+        }
+      ],
+      "exact_cases": 68
+    },
+    {
+      "batch": 8,
+      "context_tokens": 1024,
+      "shared_hits": 4,
+      "original_median_us": 4742.9135,
+      "candidate_median_us": 4041.745,
+      "original": [
+        {
+          "ns": 3190834,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 150283
+        },
+        {
+          "ns": 61273657,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 85028
+        },
+        {
+          "ns": 7972849,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 322425
+        },
+        {
+          "ns": 4542702,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 114387
+        },
+        {
+          "ns": 3909953,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 198532
+        },
+        {
+          "ns": 55619222,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 76989
+        },
+        {
+          "ns": 7864385,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 274542
+        },
+        {
+          "ns": 3842414,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 138385
+        },
+        {
+          "ns": 3710029,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 137649
+        },
+        {
+          "ns": 2522677,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 83177
+        },
+        {
+          "ns": 63450940,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 86782
+        },
+        {
+          "ns": 5335815,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 192867
+        },
+        {
+          "ns": 3825383,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 135003
+        },
+        {
+          "ns": 58503693,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 75785
+        },
+        {
+          "ns": 7907289,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 298972
+        },
+        {
+          "ns": 3979423,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 140103
+        },
+        {
+          "ns": 3474788,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 141626
+        },
+        {
+          "ns": 2425198,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 96469
+        },
+        {
+          "ns": 1972024,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 76635
+        },
+        {
+          "ns": 5629859,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 211691
+        },
+        {
+          "ns": 6726772,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 171341
+        },
+        {
+          "ns": 3162578,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 105503
+        },
+        {
+          "ns": 2806745,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 81110
+        },
+        {
+          "ns": 7935005,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 280614
+        },
+        {
+          "ns": 7727681,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 467777
+        },
+        {
+          "ns": 4525413,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 122631
+        },
+        {
+          "ns": 2824107,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 161641
+        },
+        {
+          "ns": 7221557,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 339474
+        },
+        {
+          "ns": 5152671,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 249965
+        },
+        {
+          "ns": 2900670,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 110073
+        },
+        {
+          "ns": 2855936,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 101983
+        },
+        {
+          "ns": 7283515,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 322046
+        },
+        {
+          "ns": 5243993,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 186526
+        },
+        {
+          "ns": 4801686,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 212109
+        },
+        {
+          "ns": 2448124,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 90814
+        },
+        {
+          "ns": 58278986,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 82766
+        },
+        {
+          "ns": 7463436,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 412839
+        },
+        {
+          "ns": 4684141,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 179790
+        },
+        {
+          "ns": 2636368,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 101325
+        },
+        {
+          "ns": 6842862,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 329809
+        },
+        {
+          "ns": 6080377,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 206738
+        },
+        {
+          "ns": 2997755,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 129324
+        },
+        {
+          "ns": 2437872,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 89011
+        },
+        {
+          "ns": 8604494,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 489585
+        },
+        {
+          "ns": 5734944,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 205716
+        },
+        {
+          "ns": 3650582,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 121916
+        },
+        {
+          "ns": 2614176,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 90140
+        },
+        {
+          "ns": 10041167,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 379419
+        },
+        {
+          "ns": 8309215,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 279125
+        },
+        {
+          "ns": 3728960,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 139224
+        },
+        {
+          "ns": 2740699,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 95898
+        },
+        {
+          "ns": 6534072,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 306967
+        },
+        {
+          "ns": 5175421,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 243492
+        },
+        {
+          "ns": 2653691,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 96061
+        },
+        {
+          "ns": 64662952,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 92141
+        },
+        {
+          "ns": 5904943,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 191845
+        },
+        {
+          "ns": 3633139,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 187201
+        },
+        {
+          "ns": 2385685,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 89287
+        },
+        {
+          "ns": 2344433,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 88560
+        },
+        {
+          "ns": 5821967,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 227073
+        },
+        {
+          "ns": 5606266,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 339734
+        },
+        {
+          "ns": 2674984,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 91319
+        },
+        {
+          "ns": 3254491,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 95235
+        },
+        {
+          "ns": 55210401,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 66908
+        }
+      ],
+      "candidate": [
+        {
+          "ns": 2546054,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 71994
+        },
+        {
+          "ns": 2501778,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 72066
+        },
+        {
+          "ns": 10520227,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 334649
+        },
+        {
+          "ns": 4296937,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 175492
+        },
+        {
+          "ns": 2373276,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 78988
+        },
+        {
+          "ns": 2344284,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 72661
+        },
+        {
+          "ns": 6995363,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 235991
+        },
+        {
+          "ns": 5228056,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 198328
+        },
+        {
+          "ns": 2745701,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 99586
+        },
+        {
+          "ns": 2515678,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 75625
+        },
+        {
+          "ns": 8867750,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 305481
+        },
+        {
+          "ns": 5859320,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 191028
+        },
+        {
+          "ns": 3546009,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 104704
+        },
+        {
+          "ns": 2345263,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 78881
+        },
+        {
+          "ns": 8624630,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 243330
+        },
+        {
+          "ns": 4491109,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 331068
+        },
+        {
+          "ns": 4087569,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 123278
+        },
+        {
+          "ns": 2763096,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 93815
+        },
+        {
+          "ns": 57862708,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 56360
+        },
+        {
+          "ns": 6487417,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 232210
+        },
+        {
+          "ns": 3639033,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 176525
+        },
+        {
+          "ns": 3174653,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 118972
+        },
+        {
+          "ns": 2672944,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 71306
+        },
+        {
+          "ns": 55912990,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 67890
+        },
+        {
+          "ns": 5525646,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 182011
+        },
+        {
+          "ns": 3733232,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 127828
+        },
+        {
+          "ns": 2914193,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 75207
+        },
+        {
+          "ns": 65851895,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 89378
+        },
+        {
+          "ns": 4278124,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 124569
+        },
+        {
+          "ns": 3878152,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 179521
+        },
+        {
+          "ns": 3041033,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 76202
+        },
+        {
+          "ns": 65689832,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 63749
+        },
+        {
+          "ns": 4415179,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 146872
+        },
+        {
+          "ns": 3693888,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 106345
+        },
+        {
+          "ns": 2438964,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 68429
+        },
+        {
+          "ns": 2414028,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 75355
+        },
+        {
+          "ns": 5796492,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 169515
+        },
+        {
+          "ns": 4842541,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 120275
+        },
+        {
+          "ns": 2982628,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 71092
+        },
+        {
+          "ns": 11163837,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 411118
+        },
+        {
+          "ns": 3795688,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 119586
+        },
+        {
+          "ns": 3692128,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 106557
+        },
+        {
+          "ns": 3001690,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 67797
+        },
+        {
+          "ns": 56230110,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 76128
+        },
+        {
+          "ns": 6190096,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 163217
+        },
+        {
+          "ns": 3928189,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 131480
+        },
+        {
+          "ns": 3493170,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 76083
+        },
+        {
+          "ns": 59646722,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 123214
+        },
+        {
+          "ns": 5134245,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 205425
+        },
+        {
+          "ns": 4533812,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 137449
+        },
+        {
+          "ns": 58661157,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 77478
+        },
+        {
+          "ns": 8781789,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 265041
+        },
+        {
+          "ns": 4075194,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 145658
+        },
+        {
+          "ns": 3780395,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 119518
+        },
+        {
+          "ns": 8723309,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 419667
+        },
+        {
+          "ns": 7253609,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 245863
+        },
+        {
+          "ns": 3691247,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 135037
+        },
+        {
+          "ns": 3328469,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 99304
+        },
+        {
+          "ns": 54900505,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 68029
+        },
+        {
+          "ns": 9003485,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 356790
+        },
+        {
+          "ns": 4008296,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 139943
+        },
+        {
+          "ns": 3563622,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 111587
+        },
+        {
+          "ns": 2670766,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 80452
+        },
+        {
+          "ns": 1968268,
+          "calls": 1,
+          "rows": 4,
+          "native_ns": 62848
+        }
+      ],
+      "exact_cases": 68
+    },
+    {
+      "batch": 8,
+      "context_tokens": 1024,
+      "shared_hits": 8,
+      "original_median_us": 4297.0895,
+      "candidate_median_us": 4066.352,
+      "original": [
+        {
+          "ns": 4677177,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 230805
+        },
+        {
+          "ns": 3003972,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 154563
+        },
+        {
+          "ns": 2644770,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 121280
+        },
+        {
+          "ns": 8347219,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 373512
+        },
+        {
+          "ns": 6575207,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 248541
+        },
+        {
+          "ns": 3163917,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 205551
+        },
+        {
+          "ns": 3282442,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 107170
+        },
+        {
+          "ns": 1994748,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 100621
+        },
+        {
+          "ns": 53476856,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 79137
+        },
+        {
+          "ns": 3767492,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 252069
+        },
+        {
+          "ns": 3995225,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 142722
+        },
+        {
+          "ns": 2227334,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 125815
+        },
+        {
+          "ns": 2209657,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 94404
+        },
+        {
+          "ns": 5913923,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 310477
+        },
+        {
+          "ns": 4962175,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 175026
+        },
+        {
+          "ns": 3074501,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 165291
+        },
+        {
+          "ns": 2257504,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 118872
+        },
+        {
+          "ns": 60190059,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 92217
+        },
+        {
+          "ns": 7318782,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 476925
+        },
+        {
+          "ns": 4307768,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 215616
+        },
+        {
+          "ns": 2769761,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 122063
+        },
+        {
+          "ns": 2161073,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 153800
+        },
+        {
+          "ns": 2001607,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 90375
+        },
+        {
+          "ns": 8612201,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 350104
+        },
+        {
+          "ns": 5827112,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 248349
+        },
+        {
+          "ns": 3399051,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 195246
+        },
+        {
+          "ns": 2566405,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 134877
+        },
+        {
+          "ns": 10560498,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 514251
+        },
+        {
+          "ns": 6056597,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 345112
+        },
+        {
+          "ns": 3989993,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 192195
+        },
+        {
+          "ns": 2404536,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 130849
+        },
+        {
+          "ns": 57908782,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 144153
+        },
+        {
+          "ns": 7677937,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 316739
+        },
+        {
+          "ns": 4468158,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 198173
+        },
+        {
+          "ns": 2795525,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 149283
+        },
+        {
+          "ns": 59116716,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 124933
+        },
+        {
+          "ns": 8740424,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 325484
+        },
+        {
+          "ns": 4286411,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 215555
+        },
+        {
+          "ns": 3753928,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 165495
+        },
+        {
+          "ns": 8766471,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 350520
+        },
+        {
+          "ns": 5920966,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 300701
+        },
+        {
+          "ns": 3878308,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 211607
+        },
+        {
+          "ns": 2849026,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 116457
+        },
+        {
+          "ns": 65253584,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 139670
+        },
+        {
+          "ns": 10274153,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 469383
+        },
+        {
+          "ns": 3160629,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 203136
+        },
+        {
+          "ns": 2473427,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 125774
+        },
+        {
+          "ns": 9864675,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 292128
+        },
+        {
+          "ns": 5738248,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 220067
+        },
+        {
+          "ns": 3977433,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 174003
+        },
+        {
+          "ns": 2640582,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 117789
+        },
+        {
+          "ns": 8000409,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 348836
+        },
+        {
+          "ns": 6303059,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 192802
+        },
+        {
+          "ns": 3144761,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 200809
+        },
+        {
+          "ns": 2773054,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 114084
+        },
+        {
+          "ns": 5951529,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 281044
+        },
+        {
+          "ns": 4812388,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 159987
+        },
+        {
+          "ns": 2697781,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 147049
+        },
+        {
+          "ns": 2916026,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 110827
+        },
+        {
+          "ns": 7092073,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 337505
+        },
+        {
+          "ns": 6833583,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 219824
+        },
+        {
+          "ns": 2753722,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 281430
+        },
+        {
+          "ns": 60036774,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 115705
+        },
+        {
+          "ns": 5171995,
+          "calls": 1,
+          "rows": 8,
+          "native_ns": 269668
+        }
+      ],
+      "candidate": [
+        {
+          "ns": 4316304,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3381266,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2554915,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 64830128,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3619394,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3949675,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2620133,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2132410,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 8144087,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 5990760,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3356622,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2101650,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 60504339,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 6942300,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3630094,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2871390,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2141200,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1883562,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 6251544,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 4030865,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2659128,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2926105,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 1898481,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 57749504,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 4632265,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3543537,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2762412,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 61502616,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 4725202,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3715686,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2292284,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2540912,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 6166698,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3792847,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2744187,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2529963,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 8156592,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 6003047,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2585849,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 58643142,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 5639559,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3955208,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2450259,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2412710,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 5930180,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 5696505,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2383041,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 54121823,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 5203304,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 3776016,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2526696,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 68096424,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 5522572,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 4101839,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 60566200,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 8336644,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 4633789,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 2511345,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 58665433,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 8187903,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 4199062,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 4859854,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 7627474,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        },
+        {
+          "ns": 6100306,
+          "calls": 0,
+          "rows": 0,
+          "native_ns": 0
+        }
+      ],
+      "exact_cases": 68
+    }
+  ],
+  "vllm": "0.32.0",
+  "numba": "0.65.0",
+  "python": "3.12.3",
+  "original_sha256": "b6973f93f51879e4c326d288ae61b422e536586b9c653d18b5c7d020eda0e7ef",
+  "candidate_sha256": "0278aa6134a5b60eb580e3b94fd86da15ba78bb1e0f1ac855f25bf6ac0f3b5b9",
+  "native_source_sha256": "b7c0a80715b946ca57f4946dddbf9c6b256b1eaff5e872c55ccf841d9a6db7c5"
+}

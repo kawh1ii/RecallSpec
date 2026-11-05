@@ -8,3 +8,5 @@
 - [源码](speculation/src) · [测试](speculation/tests) · [原始实验记录](speculation/results)
 
 当前实现及其测量证据在 `speculation/`。旧实现与实验仍可从[此前的项目说明](README.previous.md)查看。
+
+- [按需调用原生草稿与 vLLM n-gram 组件对照](speculation/followups/lazy-native/README.md)

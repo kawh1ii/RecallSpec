@@ -1,0 +1,52 @@
+--- a/src/recallspec/runtime.py
++++ b/src/recallspec/runtime.py
+@@ -44,13 +44,23 @@
+ 
+ def propose(runner, scheduler_output, sampled, k, slot_mappings):
+     start = time.perf_counter_ns()
+-    original_start = start
+-    drafts = runner.drafter.propose(k, sampled, runner.input_batch.num_tokens_no_spec,
+-                                  runner.input_batch.token_ids_cpu,
+-                                  slot_mappings=slot_mappings)
+-    native_ns = time.perf_counter_ns() - original_start
+     mode = os.environ.get("RECALLSPEC_MODE", "native")
+     index = _index(runner) if mode in ("gated", "ungated") else None
++    shared_first = index is not None and index.config.shared_first
++    native_ns = native_calls = native_rows = 0
++
++    def native(rows):
++        nonlocal native_ns, native_calls, native_rows
++        before = time.perf_counter_ns()
++        result = runner.drafter.propose(k, rows, runner.input_batch.num_tokens_no_spec,
++                                       runner.input_batch.token_ids_cpu,
++                                       slot_mappings=slot_mappings)
++        native_ns = time.perf_counter_ns() - before
++        native_calls += 1
++        native_rows = sum(bool(row) for row in rows)
++        return result
++
++    drafts = [[] for _ in sampled] if shared_first else native(sampled)
+     if index is not None:
+         if runner.use_async_scheduling or runner.parallel_config.tensor_parallel_size != 1:
+             raise RuntimeError("RecallSpec supports synchronous single-GPU execution only")
+@@ -84,10 +94,19 @@
+             if shared:
+                 drafts[i] = shared
+         to_commit.append((request_id, tokens, request.num_prompt_tokens))
++    if shared_first:
++        # vLLM's audited n-gram proposer skips rows with empty sampled IDs.
++        # Keep the original row positions and mask only hits, so fallback can
++        # use the original committed tokens without copying a batch of IDs.
++        misses = [row if not draft else [] for row, draft in zip(sampled, drafts)]
++        if any(misses):
++            fallback = native(misses)
++            drafts = [draft or other for draft, other in zip(drafts, fallback)]
+     for request_id, tokens, prompt_length in to_commit:
+         index.commit(request_id, tokens, prompt_length)
+     _trace({"event": "propose", "feedback": events,
+-            "native_ns": native_ns, "total_ns": time.perf_counter_ns() - start,
++            "native_ns": native_ns, "native_calls": native_calls, "native_rows": native_rows,
++            "total_ns": time.perf_counter_ns() - start,
+             "stats": dict(index.stats) if index is not None else {},
+             "keys": len(index.entries) if index is not None else 0,
+             "live_cursors": len(index.cursors) if index is not None else 0,

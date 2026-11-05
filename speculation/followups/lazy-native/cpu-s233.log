@@ -1,0 +1,12 @@
+/root/autodl-tmp/turbollm-v2/.venv/lib/python3.12/site-packages/numba/np/ufunc/parallel.py:373: NumbaWarning: The TBB threading layer requires TBB version 2021 update 6 or later i.e., TBB_INTERFACE_VERSION >= 12060. Found TBB_INTERFACE_VERSION = 12050. The TBB threading layer is disabled.
+  warnings.warn(problem)
+PASS 1 128 0
+PASS 1 128 1
+PASS 1 1024 0
+PASS 1 1024 1
+PASS 8 128 0
+PASS 8 128 4
+PASS 8 128 8
+PASS 8 1024 0
+PASS 8 1024 4
+PASS 8 1024 8
