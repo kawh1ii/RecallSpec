@@ -1,0 +1,16 @@
+{
+  "model": "/root/autodl-tmp/models/Qwen2.5-7B-Instruct",
+  "output": "/root/autodl-tmp/recallspec-v2/results/final/7b",
+  "modes": "base,gated",
+  "seeds": "76",
+  "rounds": 3,
+  "batches": "1,8",
+  "kinds": "repeat,general",
+  "tokens": 128,
+  "trace": false,
+  "eager": false,
+  "batch_invariant": false,
+  "prefix_cache": false,
+  "runner": "v1",
+  "config": null
+}

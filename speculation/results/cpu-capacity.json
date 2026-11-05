@@ -1,0 +1,17 @@
+{
+  "kind": "CPU-only capacity stress; not an inference benchmark",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "requests": 1000,
+  "keys": 50000,
+  "live_cursors": 0,
+  "pending": 0,
+  "stats": {
+    "insertions": 64000,
+    "evictions": 14000
+  },
+  "tracemalloc_current_bytes": 29532986,
+  "tracemalloc_peak_bytes": 29535338,
+  "wall_seconds_including_tracemalloc": 0.290688833,
+  "source_sha256": "e1aec39014c3e88c9ba10d9bfcc491f8e1e4f7f2815a084182bb4523f53f74bc"
+}

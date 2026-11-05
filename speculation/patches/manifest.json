@@ -1,0 +1,21 @@
+{
+  "version": "0.32.0",
+  "target": "v1/worker/gpu_model_runner.py",
+  "original_sha256": "4cf95efe4ea8caa3110dcd231ff95ceb97e8136f5056e6bdd388300a484c4a81",
+  "patched_sha256": "4395e9f608fb5c38779a2c45fcee072b995798041d30472bbbf7e8affd693c0b",
+  "ngram_sha256": "b7c0a80715b946ca57f4946dddbf9c6b256b1eaff5e872c55ccf841d9a6db7c5",
+  "changes": [
+    [
+      "import functools\n",
+      "import os as _recallspec_os\n_recallspec_enabled = (_recallspec_os.environ.get(\"RECALLSPEC_MODE\") in (\"gated\", \"ungated\") or bool(_recallspec_os.environ.get(\"RECALLSPEC_TRACE\")))\n\nimport functools\n"
+    ],
+    [
+      "        # Remove finished requests from the cached states.\n",
+      "        if _recallspec_enabled:\n            from recallspec.runtime import before_update\n            before_update(self, scheduler_output)\n        # Remove finished requests from the cached states.\n"
+    ],
+    [
+      "            draft_token_ids = self.drafter.propose(\n                num_spec_tokens_to_schedule,\n                sampled_token_ids,\n                self.input_batch.num_tokens_no_spec,\n                self.input_batch.token_ids_cpu,\n                slot_mappings=slot_mappings,\n            )",
+      "            if _recallspec_enabled:\n                from recallspec.runtime import propose as recallspec_propose\n                draft_token_ids = recallspec_propose(\n                    self, scheduler_output, sampled_token_ids,\n                    num_spec_tokens_to_schedule, slot_mappings)\n            else:\n                draft_token_ids = self.drafter.propose(\n                    num_spec_tokens_to_schedule,\n                    sampled_token_ids,\n                    self.input_batch.num_tokens_no_spec,\n                    self.input_batch.token_ids_cpu,\n                    slot_mappings=slot_mappings,\n                )"
+    ]
+  ]
+}

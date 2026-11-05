@@ -1,0 +1,239 @@
+{
+  "timings_by_seed": {
+    "repeat/b1": {
+      "base": {
+        "74": 1.5917865536175668
+      },
+      "gated": {
+        "74": 0.19915470853447914
+      },
+      "native": {
+        "74": 1.543082969263196
+      }
+    },
+    "repeat/b8": {
+      "base": {
+        "74": 1.5919950208626688
+      },
+      "gated": {
+        "74": 0.22236598748713732
+      },
+      "native": {
+        "74": 1.537233890965581
+      }
+    },
+    "general/b1": {
+      "base": {
+        "74": 1.5986816831864417
+      },
+      "gated": {
+        "74": 1.451710823457688
+      },
+      "native": {
+        "74": 1.441088226158172
+      }
+    },
+    "general/b8": {
+      "base": {
+        "74": 1.5970157915726304
+      },
+      "gated": {
+        "74": 1.4586767978034914
+      },
+      "native": {
+        "74": 1.6014916496351361
+      }
+    },
+    "conflict/b1": {
+      "base": {
+        "74": 1.5998774808831513
+      },
+      "gated": {
+        "74": 1.4186997562646866
+      },
+      "native": {
+        "74": 1.4656652784906328
+      }
+    },
+    "conflict/b8": {
+      "base": {
+        "74": 1.6009979080408812
+      },
+      "gated": {
+        "74": 0.8894213647581637
+      },
+      "native": {
+        "74": 1.471800140105188
+      }
+    }
+  },
+  "comparisons": {
+    "gated-s74-vs-base": {
+      "total": 81,
+      "identical": 81,
+      "differences": []
+    },
+    "gated-s74-vs-native": {
+      "total": 81,
+      "identical": 81,
+      "differences": []
+    },
+    "native-s74-vs-base": {
+      "total": 81,
+      "identical": 81,
+      "differences": []
+    }
+  },
+  "traces": {
+    "base-s74": {
+      "repeat/b1": {
+        "target_steps": 192,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "repeat/b8": {
+        "target_steps": 195,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "general/b1": {
+        "target_steps": 192,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "general/b8": {
+        "target_steps": 195,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "conflict/b1": {
+        "target_steps": 192,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "conflict/b8": {
+        "target_steps": 195,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "final_stats": {},
+      "max_keys": 0,
+      "matched_requests": 81
+    },
+    "gated-s74": {
+      "repeat/b1": {
+        "target_steps": 79,
+        "native_scheduled": 217,
+        "native_accepted": 1,
+        "shared_scheduled": 112,
+        "shared_accepted": 112,
+        "native_cpu_ms_median": 0.055762500000000007,
+        "extension_cpu_ms_median": 0.043382000000000004
+      },
+      "repeat/b8": {
+        "target_steps": 27,
+        "shared_scheduled": 1344,
+        "shared_accepted": 1344,
+        "native_cpu_ms_median": 0.069748,
+        "extension_cpu_ms_median": 0.8076765
+      },
+      "general/b1": {
+        "target_steps": 178,
+        "native_scheduled": 99,
+        "native_accepted": 14,
+        "native_cpu_ms_median": 0.055024,
+        "extension_cpu_ms_median": 0.053662
+      },
+      "general/b8": {
+        "target_steps": 182,
+        "shared_scheduled": 656,
+        "shared_accepted": 567,
+        "native_scheduled": 404,
+        "native_accepted": 32,
+        "native_cpu_ms_median": 0.064258,
+        "extension_cpu_ms_median": 0.153722
+      },
+      "conflict/b1": {
+        "target_steps": 175,
+        "native_scheduled": 509,
+        "native_accepted": 12,
+        "shared_scheduled": 16,
+        "shared_accepted": 6,
+        "native_cpu_ms_median": 0.055084,
+        "extension_cpu_ms_median": 0.042338
+      },
+      "conflict/b8": {
+        "target_steps": 131,
+        "shared_scheduled": 1016,
+        "shared_accepted": 840,
+        "native_scheduled": 1582,
+        "native_accepted": 51,
+        "native_cpu_ms_median": 0.065084,
+        "extension_cpu_ms_median": 0.1325875
+      },
+      "final_stats": {
+        "lookups": 2717,
+        "misses": 2324,
+        "insertions": 10082,
+        "expired_entries": 0,
+        "retrieved_proposals": 393,
+        "retrieved_tokens": 3144,
+        "verified_proposals": 393,
+        "verified_tokens": 3144,
+        "accepted_tokens": 2869,
+        "gate_blocks": 2
+      },
+      "max_keys": 2706,
+      "matched_requests": 81
+    },
+    "native-s74": {
+      "repeat/b1": {
+        "target_steps": 189,
+        "native_scheduled": 651,
+        "native_accepted": 3,
+        "native_cpu_ms_median": 0.051116499999999995,
+        "extension_cpu_ms_median": 0.0059405
+      },
+      "repeat/b8": {
+        "target_steps": 192,
+        "native_scheduled": 5208,
+        "native_accepted": 24,
+        "native_cpu_ms_median": 0.066109,
+        "extension_cpu_ms_median": 0.008423
+      },
+      "general/b1": {
+        "target_steps": 178,
+        "native_scheduled": 99,
+        "native_accepted": 14,
+        "native_cpu_ms_median": 0.050441,
+        "extension_cpu_ms_median": 0.006268
+      },
+      "general/b8": {
+        "target_steps": 194,
+        "native_scheduled": 744,
+        "native_accepted": 78,
+        "native_cpu_ms_median": 0.06263250000000001,
+        "extension_cpu_ms_median": 0.0070895
+      },
+      "conflict/b1": {
+        "target_steps": 179,
+        "native_scheduled": 525,
+        "native_accepted": 14,
+        "native_cpu_ms_median": 0.051513,
+        "extension_cpu_ms_median": 0.006045
+      },
+      "conflict/b8": {
+        "target_steps": 183,
+        "native_scheduled": 4209,
+        "native_accepted": 115,
+        "native_cpu_ms_median": 0.065464,
+        "extension_cpu_ms_median": 0.007837
+      },
+      "final_stats": {},
+      "max_keys": 0,
+      "matched_requests": 81
+    }
+  },
+  "runs": 3,
+  "requests": 243
+}

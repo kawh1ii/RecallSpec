@@ -1,0 +1,48 @@
+--- a/vllm/v1/worker/gpu_model_runner.py
++++ b/vllm/v1/worker/gpu_model_runner.py
+@@ -1,5 +1,8 @@
+ # SPDX-License-Identifier: Apache-2.0
+ # SPDX-FileCopyrightText: Copyright contributors to the vLLM project
++
++import os as _recallspec_os
++_recallspec_enabled = (_recallspec_os.environ.get("RECALLSPEC_MODE") in ("gated", "ungated") or bool(_recallspec_os.environ.get("RECALLSPEC_TRACE")))
+ 
+ import functools
+ import gc
+@@ -1179,6 +1182,9 @@
+         The SamplingMetadata is updated and copied to the GPU if there is a
+         new/resumed/paused/finished request in the batch.
+         """
++        if _recallspec_enabled:
++            from recallspec.runtime import before_update
++            before_update(self, scheduler_output)
+         # Remove finished requests from the cached states.
+         for req_id in scheduler_output.finished_req_ids:
+             req_state = self.requests.pop(req_id, None)
+@@ -4768,13 +4774,19 @@
+ 
+             assert isinstance(sampled_token_ids, list)
+             assert isinstance(self.drafter, NgramProposer)
+-            draft_token_ids = self.drafter.propose(
+-                num_spec_tokens_to_schedule,
+-                sampled_token_ids,
+-                self.input_batch.num_tokens_no_spec,
+-                self.input_batch.token_ids_cpu,
+-                slot_mappings=slot_mappings,
+-            )
++            if _recallspec_enabled:
++                from recallspec.runtime import propose as recallspec_propose
++                draft_token_ids = recallspec_propose(
++                    self, scheduler_output, sampled_token_ids,
++                    num_spec_tokens_to_schedule, slot_mappings)
++            else:
++                draft_token_ids = self.drafter.propose(
++                    num_spec_tokens_to_schedule,
++                    sampled_token_ids,
++                    self.input_batch.num_tokens_no_spec,
++                    self.input_batch.token_ids_cpu,
++                    slot_mappings=slot_mappings,
++                )
+         elif spec_config.method == "custom_class":
+             assert isinstance(sampled_token_ids, list)
+             draft_token_ids = cast(Any, self.drafter).propose(

@@ -1,0 +1,242 @@
+{
+  "timings_by_seed": {
+    "repeat/b1": {
+      "base": {
+        "77": 3.196255130227655
+      },
+      "gated": {
+        "77": 0.3964846874587238
+      },
+      "native": {
+        "77": 3.083380432333797
+      }
+    },
+    "repeat/b8": {
+      "base": {
+        "77": 3.161428060848266
+      },
+      "gated": {
+        "77": 0.4120469130575657
+      },
+      "native": {
+        "77": 2.9973515407182276
+      }
+    },
+    "general/b1": {
+      "base": {
+        "77": 3.2064954875968397
+      },
+      "gated": {
+        "77": 3.0383130512200296
+      },
+      "native": {
+        "77": 3.0410924730822444
+      }
+    },
+    "general/b8": {
+      "base": {
+        "77": 3.1696705520153046
+      },
+      "gated": {
+        "77": 2.926783461589366
+      },
+      "native": {
+        "77": 3.183775063138455
+      }
+    },
+    "conflict/b1": {
+      "base": {
+        "77": 3.211342920549214
+      },
+      "gated": {
+        "77": 2.6540323020890355
+      },
+      "native": {
+        "77": 2.711273475550115
+      }
+    },
+    "conflict/b8": {
+      "base": {
+        "77": 3.1766691519878805
+      },
+      "gated": {
+        "77": 1.5454190070740879
+      },
+      "native": {
+        "77": 2.6772640766575933
+      }
+    }
+  },
+  "comparisons": {
+    "gated-s77-vs-base": {
+      "total": 81,
+      "identical": 81,
+      "differences": []
+    },
+    "gated-s77-vs-native": {
+      "total": 81,
+      "identical": 81,
+      "differences": []
+    },
+    "native-s77-vs-base": {
+      "total": 81,
+      "identical": 81,
+      "differences": []
+    }
+  },
+  "traces": {
+    "base-s77": {
+      "repeat/b1": {
+        "target_steps": 384,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "repeat/b8": {
+        "target_steps": 387,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "general/b1": {
+        "target_steps": 384,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "general/b8": {
+        "target_steps": 387,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "conflict/b1": {
+        "target_steps": 384,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "conflict/b8": {
+        "target_steps": 387,
+        "native_cpu_ms_median": null,
+        "extension_cpu_ms_median": null
+      },
+      "final_stats": {},
+      "max_keys": 0,
+      "matched_requests": 81
+    },
+    "gated-s77": {
+      "repeat/b1": {
+        "target_steps": 157,
+        "native_scheduled": 561,
+        "native_accepted": 3,
+        "shared_scheduled": 224,
+        "shared_accepted": 224,
+        "native_cpu_ms_median": 0.054153,
+        "extension_cpu_ms_median": 0.043428
+      },
+      "repeat/b8": {
+        "target_steps": 51,
+        "shared_scheduled": 2688,
+        "shared_accepted": 2688,
+        "native_scheduled": 192,
+        "native_accepted": 0,
+        "native_cpu_ms_median": 0.068578,
+        "extension_cpu_ms_median": 0.8120689999999999
+      },
+      "general/b1": {
+        "target_steps": 356,
+        "native_scheduled": 196,
+        "native_accepted": 28,
+        "native_cpu_ms_median": 0.053454,
+        "extension_cpu_ms_median": 0.0498425
+      },
+      "general/b8": {
+        "target_steps": 363,
+        "shared_scheduled": 1128,
+        "shared_accepted": 971,
+        "native_scheduled": 1400,
+        "native_accepted": 86,
+        "native_cpu_ms_median": 0.064003,
+        "extension_cpu_ms_median": 0.159404
+      },
+      "conflict/b1": {
+        "target_steps": 321,
+        "native_scheduled": 1136,
+        "native_accepted": 58,
+        "shared_scheduled": 40,
+        "shared_accepted": 7,
+        "native_cpu_ms_median": 0.054136,
+        "extension_cpu_ms_median": 0.043766
+      },
+      "conflict/b8": {
+        "target_steps": 235,
+        "shared_scheduled": 2320,
+        "shared_accepted": 2078,
+        "native_scheduled": 2203,
+        "native_accepted": 118,
+        "native_cpu_ms_median": 0.059673,
+        "extension_cpu_ms_median": 0.093252
+      },
+      "final_stats": {
+        "lookups": 5139,
+        "misses": 4338,
+        "insertions": 21506,
+        "expired_entries": 0,
+        "retrieved_proposals": 801,
+        "retrieved_tokens": 6408,
+        "verified_proposals": 800,
+        "verified_tokens": 6400,
+        "accepted_tokens": 5968,
+        "self_excluded": 1,
+        "gate_blocks": 5
+      },
+      "max_keys": 6267,
+      "matched_requests": 81
+    },
+    "native-s77": {
+      "repeat/b1": {
+        "target_steps": 375,
+        "native_scheduled": 1635,
+        "native_accepted": 9,
+        "native_cpu_ms_median": 0.054421,
+        "extension_cpu_ms_median": 0.006316
+      },
+      "repeat/b8": {
+        "target_steps": 378,
+        "native_scheduled": 13080,
+        "native_accepted": 72,
+        "native_cpu_ms_median": 0.0685775,
+        "extension_cpu_ms_median": 0.0088205
+      },
+      "general/b1": {
+        "target_steps": 356,
+        "native_scheduled": 196,
+        "native_accepted": 28,
+        "native_cpu_ms_median": 0.054299,
+        "extension_cpu_ms_median": 0.006533499999999999
+      },
+      "general/b8": {
+        "target_steps": 384,
+        "native_scheduled": 2099,
+        "native_accepted": 158,
+        "native_cpu_ms_median": 0.066325,
+        "extension_cpu_ms_median": 0.0075274999999999995
+      },
+      "conflict/b1": {
+        "target_steps": 326,
+        "native_scheduled": 1165,
+        "native_accepted": 60,
+        "native_cpu_ms_median": 0.0542075,
+        "extension_cpu_ms_median": 0.006328500000000001
+      },
+      "conflict/b8": {
+        "target_steps": 334,
+        "native_scheduled": 9346,
+        "native_accepted": 482,
+        "native_cpu_ms_median": 0.06848099999999999,
+        "extension_cpu_ms_median": 0.0083175
+      },
+      "final_stats": {},
+      "max_keys": 0,
+      "matched_requests": 81
+    }
+  },
+  "runs": 3,
+  "requests": 243
+}

@@ -1,0 +1,648 @@
+{
+  "timings_by_seed": {
+    "repeat/b1": {
+      "base": {
+        "71": 1.3139822473749518
+      },
+      "native": {
+        "71": 1.4450805578380823
+      }
+    },
+    "repeat/b8": {
+      "base": {
+        "71": 1.521079609170556
+      },
+      "native": {
+        "71": 1.6055219611153007
+      }
+    },
+    "general/b1": {
+      "base": {
+        "71": 1.3061425359919667
+      },
+      "native": {
+        "71": 1.4062320785596967
+      }
+    },
+    "general/b8": {
+      "base": {
+        "71": 1.5348071828484535
+      },
+      "native": {
+        "71": 1.5891672084107995
+      }
+    },
+    "conflict/b1": {
+      "base": {
+        "71": 1.3194803046062589
+      },
+      "native": {
+        "71": 1.1965791918337345
+      }
+    },
+    "conflict/b8": {
+      "base": {
+        "71": 1.512727034278214
+      },
+      "native": {
+        "71": 1.3527306457981467
+      }
+    }
+  },
+  "comparisons": {
+    "native-s71-vs-base": {
+      "total": 108,
+      "identical": 77,
+      "differences": [
+        {
+          "kind": "repeat",
+          "batch": 8,
+          "round": 1,
+          "item": 2,
+          "first_difference": 1,
+          "reference": [
+            11,
+            17,
+            11,
+            18
+          ],
+          "candidate": [
+            220,
+            17,
+            220,
+            18
+          ]
+        },
+        {
+          "kind": "repeat",
+          "batch": 8,
+          "round": 3,
+          "item": 6,
+          "first_difference": 1,
+          "reference": [
+            11,
+            17,
+            11,
+            18
+          ],
+          "candidate": [
+            220,
+            17,
+            220,
+            18
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 1,
+          "round": 0,
+          "item": 0,
+          "first_difference": 39,
+          "reference": [
+            1741,
+            438,
+            33651,
+            323
+          ],
+          "candidate": [
+            11,
+            1741,
+            438,
+            49951
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 1,
+          "round": 1,
+          "item": 0,
+          "first_difference": 19,
+          "reference": [
+            14155,
+            13,
+            6771,
+            594
+          ],
+          "candidate": [
+            821,
+            8317,
+            25283,
+            13
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 1,
+          "round": 2,
+          "item": 0,
+          "first_difference": 102,
+          "reference": [
+            2885,
+            25,
+            1019,
+            13874
+          ],
+          "candidate": [
+            10801,
+            25,
+            1019,
+            13874
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 1,
+          "round": 3,
+          "item": 0,
+          "first_difference": 84,
+          "reference": [
+            10533,
+            6002,
+            1995,
+            13
+          ],
+          "candidate": [
+            13598,
+            3754,
+            315,
+            14131
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 0,
+          "first_difference": 39,
+          "reference": [
+            11,
+            1741,
+            438,
+            49951
+          ],
+          "candidate": [
+            369,
+            49951,
+            3220,
+            1948
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 1,
+          "first_difference": 19,
+          "reference": [
+            821,
+            8317,
+            25283,
+            13
+          ],
+          "candidate": [
+            14155,
+            13,
+            6771,
+            594
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 2,
+          "first_difference": 79,
+          "reference": [
+            1985,
+            323,
+            5537,
+            382
+          ],
+          "candidate": [
+            5537,
+            369,
+            1817,
+            1985
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 3,
+          "first_difference": 108,
+          "reference": [
+            15,
+            13,
+            1205,
+            1366
+          ],
+          "candidate": [
+            13,
+            1205,
+            1366,
+            311
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 4,
+          "first_difference": 30,
+          "reference": [
+            702,
+            279,
+            1852,
+            821
+          ],
+          "candidate": [
+            374,
+            2677,
+            304,
+            12811
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 5,
+          "first_difference": 9,
+          "reference": [
+            1483,
+            311,
+            1273,
+            3425
+          ],
+          "candidate": [
+            429,
+            374,
+            1483,
+            311
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 6,
+          "first_difference": 14,
+          "reference": [
+            311,
+            2138,
+            369,
+            11050
+          ],
+          "candidate": [
+            10306,
+            279,
+            1584,
+            315
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 1,
+          "item": 0,
+          "first_difference": 68,
+          "reference": [
+            6505,
+            11,
+            1817,
+            2436
+          ],
+          "candidate": [
+            12859,
+            11,
+            1817,
+            2436
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 1,
+          "item": 2,
+          "first_difference": 70,
+          "reference": [
+            1849,
+            594,
+            5068,
+            382
+          ],
+          "candidate": [
+            7982,
+            382,
+            14374,
+            36532
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 1,
+          "item": 3,
+          "first_difference": 91,
+          "reference": [
+            11976,
+            398,
+            59009,
+            9549
+          ],
+          "candidate": [
+            20152,
+            9549,
+            62723,
+            95518
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 1,
+          "item": 4,
+          "first_difference": 39,
+          "reference": [
+            369,
+            49951,
+            3220,
+            1948
+          ],
+          "candidate": [
+            11,
+            1741,
+            438,
+            49951
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 1,
+          "item": 6,
+          "first_difference": 91,
+          "reference": [
+            2802,
+            5610,
+            678,
+            279
+          ],
+          "candidate": [
+            7745,
+            374,
+            264,
+            8651
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 0,
+          "first_difference": 28,
+          "reference": [
+            678,
+            80801,
+            614,
+            279
+          ],
+          "candidate": [
+            279,
+            36954,
+            374,
+            2677
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 1,
+          "first_difference": 9,
+          "reference": [
+            1483,
+            311,
+            1273,
+            3425
+          ],
+          "candidate": [
+            429,
+            374,
+            1483,
+            311
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 3,
+          "first_difference": 10,
+          "reference": [
+            5248,
+            11364,
+            525,
+            26168
+          ],
+          "candidate": [
+            1378,
+            476,
+            803,
+            11364
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 4,
+          "first_difference": 126,
+          "reference": [
+            686,
+            1172
+          ],
+          "candidate": [
+            1172,
+            21501
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 6,
+          "first_difference": 70,
+          "reference": [
+            1849,
+            594,
+            5068,
+            382
+          ],
+          "candidate": [
+            7982,
+            382,
+            14374,
+            36532
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 7,
+          "first_difference": 12,
+          "reference": [
+            432,
+            374,
+            537,
+            264
+          ],
+          "candidate": [
+            279,
+            2615,
+            5383,
+            315
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 3,
+          "item": 0,
+          "first_difference": 79,
+          "reference": [
+            220,
+            16,
+            25,
+            17147
+          ],
+          "candidate": [
+            510,
+            12,
+            3070,
+            61686
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 3,
+          "item": 2,
+          "first_difference": 91,
+          "reference": [
+            2802,
+            5610,
+            678,
+            279
+          ],
+          "candidate": [
+            7745,
+            374,
+            264,
+            8651
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 3,
+          "item": 3,
+          "first_difference": 42,
+          "reference": [
+            5486,
+            6147,
+            279,
+            4625
+          ],
+          "candidate": [
+            25351,
+            429,
+            421,
+            264
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 3,
+          "item": 4,
+          "first_difference": 28,
+          "reference": [
+            678,
+            80801,
+            614,
+            279
+          ],
+          "candidate": [
+            279,
+            36954,
+            702,
+            279
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 3,
+          "item": 5,
+          "first_difference": 9,
+          "reference": [
+            429,
+            374,
+            1483,
+            311
+          ],
+          "candidate": [
+            1483,
+            311,
+            1273,
+            3425
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 3,
+          "item": 6,
+          "first_difference": 14,
+          "reference": [
+            311,
+            2138,
+            369,
+            11050
+          ],
+          "candidate": [
+            7269,
+            14527,
+            24098,
+            13
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 3,
+          "item": 7,
+          "first_difference": 10,
+          "reference": [
+            1378,
+            476,
+            803,
+            11364
+          ],
+          "candidate": [
+            5248,
+            11364,
+            525,
+            26168
+          ]
+        }
+      ]
+    }
+  },
+  "traces": {},
+  "runs": 2,
+  "requests": 216
+}

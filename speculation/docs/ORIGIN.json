@@ -1,0 +1,9 @@
+{
+  "original_repository": "https://github.com/kawh1ii/RecallSpec",
+  "original_commit": "68c45a1c9078c48012e7fd736a526e3161cf35e5",
+  "original_runtime": "vLLM0.11.0",
+  "new_runtime": "vLLM0.32.0",
+  "upstream_worker": "https://github.com/vllm-project/vllm/blob/v0.32.0/vllm/v1/worker/gpu_model_runner.py",
+  "upstream_ngram": "https://github.com/vllm-project/vllm/blob/v0.32.0/vllm/v1/spec_decode/ngram_proposer.py",
+  "public_repository_updated": false
+}

@@ -1,0 +1,15 @@
+{
+  "model": "/root/autodl-tmp/models/Qwen2.5-3B-Instruct",
+  "output": "/root/autodl-tmp/recallspec-v2/results/strict",
+  "modes": "base,native,gated",
+  "seeds": "74",
+  "rounds": 3,
+  "batches": "1,8",
+  "kinds": "repeat,general,conflict",
+  "tokens": 64,
+  "trace": true,
+  "eager": false,
+  "batch_invariant": true,
+  "prefix_cache": false,
+  "config": null
+}

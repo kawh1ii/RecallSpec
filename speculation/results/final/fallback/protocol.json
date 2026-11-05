@@ -1,0 +1,16 @@
+{
+  "model": "/root/autodl-tmp/models/Qwen2.5-3B-Instruct",
+  "output": "/root/autodl-tmp/recallspec-v2/results/final/fallback",
+  "modes": "gated",
+  "seeds": "71",
+  "rounds": 4,
+  "batches": "1,8",
+  "kinds": "repeat,general,conflict",
+  "tokens": 128,
+  "trace": false,
+  "eager": false,
+  "batch_invariant": false,
+  "prefix_cache": false,
+  "runner": "v1",
+  "config": "/root/autodl-tmp/recallspec-v2/results/final/fallback.json"
+}

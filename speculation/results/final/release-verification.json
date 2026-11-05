@@ -1,0 +1,115 @@
+{
+  "completed_stages": [
+    "strict",
+    "performance",
+    "diagnostics",
+    "fallback",
+    "prefix",
+    "default-runner",
+    "7b",
+    "strict128"
+  ],
+  "runs": 28,
+  "records": 582,
+  "requests": 2619,
+  "runtime_source_hashes_match": true,
+  "strict_full_token_pairs": {
+    "gated-s74-vs-base": {
+      "total": 81,
+      "identical": 81
+    },
+    "gated-s74-vs-native": {
+      "total": 81,
+      "identical": 81
+    },
+    "native-s74-vs-base": {
+      "total": 81,
+      "identical": 81
+    }
+  },
+  "analysis_only_revision": {
+    "file": "tools/analyze.py",
+    "measurement_sha256": "76f66cc9acee93bf612dd5f6b3b1abc94f2fccb17278a0c0896a0356fb0601e9",
+    "corrected_sha256": "3c8ac20c7a523bd604b081f7290600608590999407d0cb02ae53f59e447549c8",
+    "reason": "Resolve external IDs to actual worker IDs using a unique mapping from schedule events; two regression tests. Runtime, workload and original measurements unchanged."
+  },
+  "strict128_full_token_pairs": {
+    "gated-s77-vs-base": {
+      "total": 81,
+      "identical": 81
+    },
+    "gated-s77-vs-native": {
+      "total": 81,
+      "identical": 81
+    },
+    "native-s77-vs-base": {
+      "total": 81,
+      "identical": 81
+    }
+  },
+  "trace_checks": [
+    {
+      "trace": "results/final/strict/base-s74-trace",
+      "events": 1245,
+      "final_live_cursors": 0,
+      "final_pending": 0,
+      "max_keys": 0
+    },
+    {
+      "trace": "results/final/strict/gated-s74-trace",
+      "events": 1692,
+      "final_live_cursors": 0,
+      "final_pending": 0,
+      "max_keys": 2706
+    },
+    {
+      "trace": "results/final/strict/native-s74-trace",
+      "events": 2377,
+      "final_live_cursors": 0,
+      "final_pending": 0,
+      "max_keys": 0
+    },
+    {
+      "trace": "results/final/strict128/base-s77-trace",
+      "events": 2460,
+      "final_live_cursors": 0,
+      "final_pending": 0,
+      "max_keys": 0
+    },
+    {
+      "trace": "results/final/strict128/gated-s77-trace",
+      "events": 3240,
+      "final_live_cursors": 0,
+      "final_pending": 0,
+      "max_keys": 6267
+    },
+    {
+      "trace": "results/final/strict128/native-s77-trace",
+      "events": 4579,
+      "final_live_cursors": 0,
+      "final_pending": 0,
+      "max_keys": 0
+    },
+    {
+      "trace": "results/final/diagnostics/base-s75-trace",
+      "events": 2461,
+      "final_live_cursors": 0,
+      "final_pending": 0,
+      "max_keys": 0
+    },
+    {
+      "trace": "results/final/diagnostics/gated-s75-trace",
+      "events": 3458,
+      "final_live_cursors": 0,
+      "final_pending": 0,
+      "max_keys": 7137
+    },
+    {
+      "trace": "results/final/diagnostics/native-s75-trace",
+      "events": 4569,
+      "final_live_cursors": 0,
+      "final_pending": 0,
+      "max_keys": 0
+    }
+  ]
+}

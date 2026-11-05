@@ -1,0 +1,442 @@
+{
+  "timings_by_seed": {
+    "repeat/b1": {
+      "base": {
+        "76": 2.1215097904205322
+      },
+      "gated": {
+        "76": 0.2838194891810417
+      }
+    },
+    "repeat/b8": {
+      "base": {
+        "76": 2.241796344984323
+      },
+      "gated": {
+        "76": 0.3879001569002867
+      }
+    },
+    "general/b1": {
+      "base": {
+        "76": 2.1193585549481213
+      },
+      "gated": {
+        "76": 2.187283255625516
+      }
+    },
+    "general/b8": {
+      "base": {
+        "76": 2.234596448019147
+      },
+      "gated": {
+        "76": 1.9555864091962576
+      }
+    }
+  },
+  "comparisons": {
+    "gated-s76-vs-base": {
+      "total": 54,
+      "identical": 33,
+      "differences": [
+        {
+          "kind": "general",
+          "batch": 1,
+          "round": 1,
+          "item": 0,
+          "first_difference": 126,
+          "reference": [
+            8141,
+            7611
+          ],
+          "candidate": [
+            27379,
+            476
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 1,
+          "round": 2,
+          "item": 0,
+          "first_difference": 5,
+          "reference": [
+            323,
+            3250,
+            5819,
+            369
+          ],
+          "candidate": [
+            5819,
+            323,
+            3250,
+            5819
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 0,
+          "first_difference": 21,
+          "reference": [
+            32821,
+            311,
+            5296,
+            821
+          ],
+          "candidate": [
+            279,
+            1184,
+            369,
+            11464
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 2,
+          "first_difference": 90,
+          "reference": [
+            20651,
+            95518,
+            10801,
+            5819
+          ],
+          "candidate": [
+            323,
+            5549,
+            66567,
+            95518
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 3,
+          "first_difference": 66,
+          "reference": [
+            10695,
+            382,
+            14374,
+            13383
+          ],
+          "candidate": [
+            382,
+            14374,
+            13383,
+            58663
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 4,
+          "first_difference": 72,
+          "reference": [
+            39270,
+            11,
+            5068,
+            11
+          ],
+          "candidate": [
+            5068,
+            11,
+            2783,
+            11
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 5,
+          "first_difference": 28,
+          "reference": [
+            369,
+            17719,
+            13364,
+            15804
+          ],
+          "candidate": [
+            304,
+            25283,
+            1380,
+            13364
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 6,
+          "first_difference": 100,
+          "reference": [
+            264,
+            7901,
+            702,
+            10017
+          ],
+          "candidate": [
+            458,
+            1465,
+            702,
+            10017
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 0,
+          "item": 7,
+          "first_difference": 36,
+          "reference": [
+            315,
+            5593,
+            34936,
+            323
+          ],
+          "candidate": [
+            448,
+            264,
+            14175,
+            3110
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 1,
+          "item": 1,
+          "first_difference": 93,
+          "reference": [
+            820,
+            13383,
+            510,
+            37175
+          ],
+          "candidate": [
+            334,
+            13314,
+            25,
+            1019
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 1,
+          "item": 2,
+          "first_difference": 110,
+          "reference": [
+            5257,
+            7375,
+            323,
+            5413
+          ],
+          "candidate": [
+            7375,
+            1075,
+            97137,
+            11
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 1,
+          "item": 3,
+          "first_difference": 14,
+          "reference": [
+            10533,
+            264,
+            7199,
+            1372
+          ],
+          "candidate": [
+            31995,
+            264,
+            7199,
+            738
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 1,
+          "item": 4,
+          "first_difference": 55,
+          "reference": [
+            1246,
+            42271,
+            3706,
+            4278
+          ],
+          "candidate": [
+            42271,
+            3706,
+            382,
+            14374
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 1,
+          "item": 5,
+          "first_difference": 42,
+          "reference": [
+            476,
+            3162,
+            27850,
+            11
+          ],
+          "candidate": [
+            7901,
+            11,
+            476,
+            3162
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 1,
+          "item": 7,
+          "first_difference": 16,
+          "reference": [
+            28137,
+            323,
+            38565,
+            13
+          ],
+          "candidate": [
+            16614,
+            323,
+            28137,
+            13
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 2,
+          "first_difference": 37,
+          "reference": [
+            5819,
+            8502,
+            13,
+            6771
+          ],
+          "candidate": [
+            5101,
+            10431,
+            13,
+            6771
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 3,
+          "first_difference": 97,
+          "reference": [
+            13,
+            576,
+            11364,
+            323
+          ],
+          "candidate": [
+            382,
+            12,
+            3070,
+            7423
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 4,
+          "first_difference": 27,
+          "reference": [
+            7798,
+            429,
+            1184,
+            311
+          ],
+          "candidate": [
+            821,
+            312,
+            31309,
+            979
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 5,
+          "first_difference": 66,
+          "reference": [
+            264,
+            15626,
+            476,
+            4147
+          ],
+          "candidate": [
+            498,
+            1681,
+            264,
+            2504
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 6,
+          "first_difference": 22,
+          "reference": [
+            419,
+            18266,
+            10868,
+            279
+          ],
+          "candidate": [
+            281,
+            24,
+            24,
+            39270
+          ]
+        },
+        {
+          "kind": "general",
+          "batch": 8,
+          "round": 2,
+          "item": 7,
+          "first_difference": 110,
+          "reference": [
+            34511,
+            3637,
+            849,
+            5926
+          ],
+          "candidate": [
+            30878,
+            3637,
+            849,
+            5926
+          ]
+        }
+      ]
+    }
+  },
+  "traces": {},
+  "runs": 2,
+  "requests": 108
+}

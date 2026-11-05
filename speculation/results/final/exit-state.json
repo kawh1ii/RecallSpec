@@ -1,0 +1,11 @@
+{
+  "worker_patch_restored": true,
+  "scheduler_original_sha256": "d9a39870286c424cef2fc0730e24092ee3df67e848608e2278944846bab804ae",
+  "worker_original_sha256": "4cf95efe4ea8caa3110dcd231ff95ceb97e8136f5056e6bdd388300a484c4a81",
+  "gpu_memory_mib": 1,
+  "gpu_utilization_percent": 0,
+  "instance_left_on": true,
+  "github_pushed": false,
+  "remote_project": "/root/autodl-tmp/recallspec-v2",
+  "interpreter": "/root/autodl-tmp/turbollm-v2/.venv/bin/python"
+}
