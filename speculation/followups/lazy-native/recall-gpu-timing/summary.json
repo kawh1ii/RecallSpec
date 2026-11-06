@@ -1,0 +1,50 @@
+{
+  "seeds": [
+    244,
+    245,
+    246
+  ],
+  "strict": false,
+  "source_hashes": {
+    "original": {
+      "src/recallspec/__init__.py": "fcd9e1810392ef38d79633ad407f8f355a2ae83b2609ffc577352d84830d1ede",
+      "src/recallspec/core.py": "87fd932cf64e84c02d69d0d41b80db23bdaa9afe96dd3dfc97dda5f3a8f3ff22",
+      "src/recallspec/runtime.py": "b6973f93f51879e4c326d288ae61b422e536586b9c653d18b5c7d020eda0e7ef"
+    },
+    "lazy": {
+      "src/recallspec/__init__.py": "fcd9e1810392ef38d79633ad407f8f355a2ae83b2609ffc577352d84830d1ede",
+      "src/recallspec/core.py": "87fd932cf64e84c02d69d0d41b80db23bdaa9afe96dd3dfc97dda5f3a8f3ff22",
+      "src/recallspec/runtime.py": "0278aa6134a5b60eb580e3b94fd86da15ba78bb1e0f1ac855f25bf6ac0f3b5b9"
+    }
+  },
+  "pairs": [
+    {
+      "seed": 244,
+      "token_comparison": {
+        "total": 81,
+        "identical": 81,
+        "differences": []
+      },
+      "traces": {}
+    },
+    {
+      "seed": 245,
+      "token_comparison": {
+        "total": 81,
+        "identical": 81,
+        "differences": []
+      },
+      "traces": {}
+    },
+    {
+      "seed": 246,
+      "token_comparison": {
+        "total": 81,
+        "identical": 81,
+        "differences": []
+      },
+      "traces": {}
+    }
+  ],
+  "completed": true
+}

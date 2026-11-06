@@ -1,0 +1,14 @@
+--- a/tools/patch_vllm.py
++++ b/tools/patch_vllm.py
+@@ -15,7 +15,10 @@
+ m = json.loads((root / "patches/manifest.json").read_text())
+ if sys.prefix == sys.base_prefix:
+     raise SystemExit("Use an isolated virtual environment")
+-if importlib.metadata.version("vllm") != m["version"]:
++# The verified official CUDA 12.9 wheel adds only a local version suffix.
++# The scheduler and proposer file hashes are checked below.
++allowed_versions = {m["version"], m["version"] + "+cu129"}
++if importlib.metadata.version("vllm") not in allowed_versions:
+     raise SystemExit("Unsupported vLLM version")
+ package = Path(importlib.util.find_spec("vllm").origin).parent
+ target = package / m["target"]

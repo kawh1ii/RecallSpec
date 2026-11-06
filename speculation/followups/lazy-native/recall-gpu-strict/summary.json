@@ -1,0 +1,464 @@
+{
+  "seeds": [
+    244,
+    245,
+    246
+  ],
+  "strict": true,
+  "source_hashes": {
+    "original": {
+      "src/recallspec/__init__.py": "fcd9e1810392ef38d79633ad407f8f355a2ae83b2609ffc577352d84830d1ede",
+      "src/recallspec/core.py": "87fd932cf64e84c02d69d0d41b80db23bdaa9afe96dd3dfc97dda5f3a8f3ff22",
+      "src/recallspec/runtime.py": "b6973f93f51879e4c326d288ae61b422e536586b9c653d18b5c7d020eda0e7ef"
+    },
+    "lazy": {
+      "src/recallspec/__init__.py": "fcd9e1810392ef38d79633ad407f8f355a2ae83b2609ffc577352d84830d1ede",
+      "src/recallspec/core.py": "87fd932cf64e84c02d69d0d41b80db23bdaa9afe96dd3dfc97dda5f3a8f3ff22",
+      "src/recallspec/runtime.py": "0278aa6134a5b60eb580e3b94fd86da15ba78bb1e0f1ac855f25bf6ac0f3b5b9"
+    }
+  },
+  "pairs": [
+    {
+      "seed": 244,
+      "token_comparison": {
+        "total": 81,
+        "identical": 81,
+        "differences": []
+      },
+      "traces": {
+        "original": {
+          "repeat/b1": {
+            "target_steps": 157,
+            "native_scheduled": 577,
+            "native_accepted": 3,
+            "shared_scheduled": 224,
+            "shared_accepted": 224,
+            "native_cpu_ms_median": 0.096917,
+            "extension_cpu_ms_median": 0.058607
+          },
+          "repeat/b8": {
+            "target_steps": 159,
+            "shared_scheduled": 2592,
+            "shared_accepted": 2576,
+            "native_scheduled": 752,
+            "native_accepted": 4,
+            "native_cpu_ms_median": 0.103772,
+            "extension_cpu_ms_median": 0.07502
+          },
+          "general/b1": {
+            "target_steps": 364,
+            "native_scheduled": 277,
+            "native_accepted": 20,
+            "native_cpu_ms_median": 0.0952765,
+            "extension_cpu_ms_median": 0.0587425
+          },
+          "general/b8": {
+            "target_steps": 379,
+            "shared_scheduled": 1008,
+            "shared_accepted": 853,
+            "native_scheduled": 1319,
+            "native_accepted": 97,
+            "native_cpu_ms_median": 0.1049325,
+            "extension_cpu_ms_median": 0.175896
+          },
+          "conflict/b1": {
+            "target_steps": 229,
+            "native_scheduled": 778,
+            "native_accepted": 42,
+            "shared_scheduled": 128,
+            "shared_accepted": 115,
+            "native_cpu_ms_median": 0.0962075,
+            "extension_cpu_ms_median": 0.0625305
+          },
+          "conflict/b8": {
+            "target_steps": 322,
+            "shared_scheduled": 2080,
+            "shared_accepted": 1776,
+            "native_scheduled": 3256,
+            "native_accepted": 159,
+            "native_cpu_ms_median": 0.101169,
+            "extension_cpu_ms_median": 0.146757
+          },
+          "final_stats": {
+            "lookups": 5532,
+            "misses": 4778,
+            "insertions": 21508,
+            "expired_entries": 0,
+            "retrieved_proposals": 754,
+            "retrieved_tokens": 6032,
+            "verified_proposals": 754,
+            "verified_tokens": 6032,
+            "accepted_tokens": 5544,
+            "gate_blocks": 10
+          },
+          "max_keys": 6747,
+          "matched_requests": 81
+        },
+        "lazy": {
+          "repeat/b1": {
+            "target_steps": 157,
+            "native_scheduled": 577,
+            "native_accepted": 3,
+            "shared_scheduled": 224,
+            "shared_accepted": 224,
+            "native_cpu_ms_median": 0.091776,
+            "extension_cpu_ms_median": 0.064813
+          },
+          "repeat/b8": {
+            "target_steps": 159,
+            "shared_scheduled": 2592,
+            "shared_accepted": 2576,
+            "native_scheduled": 752,
+            "native_accepted": 4,
+            "native_cpu_ms_median": 0.094058,
+            "extension_cpu_ms_median": 0.069332
+          },
+          "general/b1": {
+            "target_steps": 364,
+            "native_scheduled": 277,
+            "native_accepted": 20,
+            "native_cpu_ms_median": 0.0926275,
+            "extension_cpu_ms_median": 0.068157
+          },
+          "general/b8": {
+            "target_steps": 379,
+            "shared_scheduled": 1008,
+            "shared_accepted": 853,
+            "native_scheduled": 1319,
+            "native_accepted": 97,
+            "native_cpu_ms_median": 0.0993115,
+            "extension_cpu_ms_median": 0.17875049999999998
+          },
+          "conflict/b1": {
+            "target_steps": 229,
+            "native_scheduled": 778,
+            "native_accepted": 42,
+            "shared_scheduled": 128,
+            "shared_accepted": 115,
+            "native_cpu_ms_median": 0.0907915,
+            "extension_cpu_ms_median": 0.066082
+          },
+          "conflict/b8": {
+            "target_steps": 322,
+            "shared_scheduled": 2080,
+            "shared_accepted": 1776,
+            "native_scheduled": 3256,
+            "native_accepted": 159,
+            "native_cpu_ms_median": 0.096227,
+            "extension_cpu_ms_median": 0.154128
+          },
+          "final_stats": {
+            "lookups": 5532,
+            "misses": 4778,
+            "insertions": 21508,
+            "expired_entries": 0,
+            "retrieved_proposals": 754,
+            "retrieved_tokens": 6032,
+            "verified_proposals": 754,
+            "verified_tokens": 6032,
+            "accepted_tokens": 5544,
+            "gate_blocks": 10
+          },
+          "max_keys": 6747,
+          "matched_requests": 81,
+          "all_proposer_calls": 1650
+        }
+      }
+    },
+    {
+      "seed": 245,
+      "token_comparison": {
+        "total": 81,
+        "identical": 81,
+        "differences": []
+      },
+      "traces": {
+        "lazy": {
+          "repeat/b1": {
+            "target_steps": 265,
+            "native_scheduled": 1145,
+            "native_accepted": 7,
+            "shared_scheduled": 120,
+            "shared_accepted": 112,
+            "native_cpu_ms_median": 0.095252,
+            "extension_cpu_ms_median": 0.065423
+          },
+          "repeat/b8": {
+            "target_steps": 51,
+            "shared_scheduled": 2768,
+            "shared_accepted": 2688,
+            "native_scheduled": 112,
+            "native_accepted": 0,
+            "native_cpu_ms_median": 0.0,
+            "extension_cpu_ms_median": 0.833737
+          },
+          "general/b1": {
+            "target_steps": 368,
+            "native_scheduled": 182,
+            "native_accepted": 16,
+            "native_cpu_ms_median": 0.08435200000000001,
+            "extension_cpu_ms_median": 0.064898
+          },
+          "general/b8": {
+            "target_steps": 379,
+            "shared_scheduled": 1112,
+            "shared_accepted": 981,
+            "native_scheduled": 1266,
+            "native_accepted": 82,
+            "native_cpu_ms_median": 0.09923799999999999,
+            "extension_cpu_ms_median": 0.1942105
+          },
+          "conflict/b1": {
+            "target_steps": 231,
+            "native_scheduled": 848,
+            "native_accepted": 44,
+            "shared_scheduled": 120,
+            "shared_accepted": 114,
+            "native_cpu_ms_median": 0.08894,
+            "extension_cpu_ms_median": 0.067276
+          },
+          "conflict/b8": {
+            "target_steps": 237,
+            "shared_scheduled": 2424,
+            "shared_accepted": 2252,
+            "native_scheduled": 1646,
+            "native_accepted": 91,
+            "native_cpu_ms_median": 0.0942965,
+            "extension_cpu_ms_median": 0.111155
+          },
+          "final_stats": {
+            "lookups": 5037,
+            "misses": 4219,
+            "insertions": 21554,
+            "expired_entries": 0,
+            "retrieved_proposals": 818,
+            "retrieved_tokens": 6544,
+            "verified_proposals": 818,
+            "verified_tokens": 6544,
+            "accepted_tokens": 6147,
+            "gate_blocks": 3
+          },
+          "max_keys": 6480,
+          "matched_requests": 81,
+          "all_proposer_calls": 1560
+        },
+        "original": {
+          "repeat/b1": {
+            "target_steps": 265,
+            "native_scheduled": 1145,
+            "native_accepted": 7,
+            "shared_scheduled": 120,
+            "shared_accepted": 112,
+            "native_cpu_ms_median": 0.091629,
+            "extension_cpu_ms_median": 0.055867
+          },
+          "repeat/b8": {
+            "target_steps": 51,
+            "shared_scheduled": 2768,
+            "shared_accepted": 2688,
+            "native_scheduled": 112,
+            "native_accepted": 0,
+            "native_cpu_ms_median": 0.1071895,
+            "extension_cpu_ms_median": 0.8552105
+          },
+          "general/b1": {
+            "target_steps": 368,
+            "native_scheduled": 182,
+            "native_accepted": 16,
+            "native_cpu_ms_median": 0.088578,
+            "extension_cpu_ms_median": 0.058635
+          },
+          "general/b8": {
+            "target_steps": 379,
+            "shared_scheduled": 1112,
+            "shared_accepted": 981,
+            "native_scheduled": 1266,
+            "native_accepted": 82,
+            "native_cpu_ms_median": 0.098492,
+            "extension_cpu_ms_median": 0.17974649999999998
+          },
+          "conflict/b1": {
+            "target_steps": 231,
+            "native_scheduled": 848,
+            "native_accepted": 44,
+            "shared_scheduled": 120,
+            "shared_accepted": 114,
+            "native_cpu_ms_median": 0.094432,
+            "extension_cpu_ms_median": 0.058902
+          },
+          "conflict/b8": {
+            "target_steps": 237,
+            "shared_scheduled": 2424,
+            "shared_accepted": 2252,
+            "native_scheduled": 1646,
+            "native_accepted": 91,
+            "native_cpu_ms_median": 0.096443,
+            "extension_cpu_ms_median": 0.099696
+          },
+          "final_stats": {
+            "lookups": 5037,
+            "misses": 4219,
+            "insertions": 21554,
+            "expired_entries": 0,
+            "retrieved_proposals": 818,
+            "retrieved_tokens": 6544,
+            "verified_proposals": 818,
+            "verified_tokens": 6544,
+            "accepted_tokens": 6147,
+            "gate_blocks": 3
+          },
+          "max_keys": 6480,
+          "matched_requests": 81
+        }
+      }
+    },
+    {
+      "seed": 246,
+      "token_comparison": {
+        "total": 81,
+        "identical": 81,
+        "differences": []
+      },
+      "traces": {
+        "original": {
+          "repeat/b1": {
+            "target_steps": 157,
+            "native_scheduled": 569,
+            "native_accepted": 3,
+            "shared_scheduled": 224,
+            "shared_accepted": 224,
+            "native_cpu_ms_median": 0.093324,
+            "extension_cpu_ms_median": 0.0577
+          },
+          "repeat/b8": {
+            "target_steps": 159,
+            "shared_scheduled": 2472,
+            "shared_accepted": 2352,
+            "native_scheduled": 1776,
+            "native_accepted": 12,
+            "native_cpu_ms_median": 0.099521,
+            "extension_cpu_ms_median": 0.1054
+          },
+          "general/b1": {
+            "target_steps": 365,
+            "native_scheduled": 202,
+            "native_accepted": 19,
+            "native_cpu_ms_median": 0.09232,
+            "extension_cpu_ms_median": 0.061917
+          },
+          "general/b8": {
+            "target_steps": 378,
+            "shared_scheduled": 976,
+            "shared_accepted": 814,
+            "native_scheduled": 1412,
+            "native_accepted": 77,
+            "native_cpu_ms_median": 0.10295399999999999,
+            "extension_cpu_ms_median": 0.1834915
+          },
+          "conflict/b1": {
+            "target_steps": 231,
+            "native_scheduled": 832,
+            "native_accepted": 44,
+            "shared_scheduled": 120,
+            "shared_accepted": 114,
+            "native_cpu_ms_median": 0.092269,
+            "extension_cpu_ms_median": 0.059642
+          },
+          "conflict/b8": {
+            "target_steps": 152,
+            "shared_scheduled": 2192,
+            "shared_accepted": 1900,
+            "native_scheduled": 2793,
+            "native_accepted": 143,
+            "native_cpu_ms_median": 0.10781299999999999,
+            "extension_cpu_ms_median": 0.2000545
+          },
+          "final_stats": {
+            "lookups": 5712,
+            "misses": 4963,
+            "insertions": 21534,
+            "expired_entries": 0,
+            "retrieved_proposals": 749,
+            "retrieved_tokens": 5992,
+            "verified_proposals": 748,
+            "verified_tokens": 5984,
+            "accepted_tokens": 5404,
+            "gate_blocks": 12
+          },
+          "max_keys": 6831,
+          "matched_requests": 81
+        },
+        "lazy": {
+          "repeat/b1": {
+            "target_steps": 157,
+            "native_scheduled": 569,
+            "native_accepted": 3,
+            "shared_scheduled": 224,
+            "shared_accepted": 224,
+            "native_cpu_ms_median": 0.090314,
+            "extension_cpu_ms_median": 0.0636655
+          },
+          "repeat/b8": {
+            "target_steps": 159,
+            "shared_scheduled": 2472,
+            "shared_accepted": 2352,
+            "native_scheduled": 1776,
+            "native_accepted": 12,
+            "native_cpu_ms_median": 0.0953075,
+            "extension_cpu_ms_median": 0.10717850000000001
+          },
+          "general/b1": {
+            "target_steps": 365,
+            "native_scheduled": 202,
+            "native_accepted": 19,
+            "native_cpu_ms_median": 0.093367,
+            "extension_cpu_ms_median": 0.06735
+          },
+          "general/b8": {
+            "target_steps": 378,
+            "shared_scheduled": 976,
+            "shared_accepted": 814,
+            "native_scheduled": 1412,
+            "native_accepted": 77,
+            "native_cpu_ms_median": 0.104019,
+            "extension_cpu_ms_median": 0.192354
+          },
+          "conflict/b1": {
+            "target_steps": 231,
+            "native_scheduled": 832,
+            "native_accepted": 44,
+            "shared_scheduled": 120,
+            "shared_accepted": 114,
+            "native_cpu_ms_median": 0.093216,
+            "extension_cpu_ms_median": 0.0644
+          },
+          "conflict/b8": {
+            "target_steps": 152,
+            "shared_scheduled": 2192,
+            "shared_accepted": 1900,
+            "native_scheduled": 2793,
+            "native_accepted": 143,
+            "native_cpu_ms_median": 0.1030835,
+            "extension_cpu_ms_median": 0.20325300000000002
+          },
+          "final_stats": {
+            "lookups": 5712,
+            "misses": 4963,
+            "insertions": 21534,
+            "expired_entries": 0,
+            "retrieved_proposals": 749,
+            "retrieved_tokens": 5992,
+            "verified_proposals": 748,
+            "verified_tokens": 5984,
+            "accepted_tokens": 5404,
+            "gate_blocks": 12
+          },
+          "max_keys": 6831,
+          "matched_requests": 81,
+          "all_proposer_calls": 1462
+        }
+      }
+    }
+  ],
+  "completed": true
+}

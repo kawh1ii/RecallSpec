@@ -1,0 +1,63 @@
+{
+  "environment": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "python": "3.12.3",
+    "torch": "2.13.0+cu130",
+    "vllm": "0.32.0"
+  },
+  "token_id_matches": {
+    "244": 81,
+    "245": 81,
+    "246": 81
+  },
+  "trace_counts": {
+    "original:244": {
+      "proposer_steps": 1737,
+      "native_calls": 1737,
+      "native_rows": null
+    },
+    "lazy:244": {
+      "proposer_steps": 1737,
+      "native_calls": 1650,
+      "native_rows": 4778
+    },
+    "original:245": {
+      "proposer_steps": 1658,
+      "native_calls": 1658,
+      "native_rows": null
+    },
+    "lazy:245": {
+      "proposer_steps": 1658,
+      "native_calls": 1560,
+      "native_rows": 4219
+    },
+    "original:246": {
+      "proposer_steps": 1569,
+      "native_calls": 1569,
+      "native_rows": null
+    },
+    "lazy:246": {
+      "proposer_steps": 1569,
+      "native_calls": 1462,
+      "native_rows": 4963
+    }
+  },
+  "warm_median_s": {
+    "original": {
+      "repeat/b1": 0.44305165437981486,
+      "repeat/b8": 0.524475546553731,
+      "general/b1": 3.422451838850975,
+      "general/b8": 3.5316468561068177,
+      "conflict/b1": 1.683285455685109,
+      "conflict/b8": 1.7572667906060815
+    },
+    "lazy": {
+      "repeat/b1": 0.433568871114403,
+      "repeat/b8": 0.49066199781373143,
+      "general/b1": 3.385127960704267,
+      "general/b8": 3.523703430313617,
+      "conflict/b1": 1.6597844818606973,
+      "conflict/b8": 1.7291946532204747
+    }
+  }
+}

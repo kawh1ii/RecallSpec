@@ -14,7 +14,7 @@
 | 4 | 8 → 4 | 116.8 → 98.8 | 3885.8 → 3736.1 |
 | 8 | 8 → 0 | 178.1 → 0 | 4297.1 → 3886.8 |
 
-全命中确实消除了重复原生工作。零命中还有掩码构造成本，其他组的总耗时方向不一致。现有数字只量 CPU proposer。目标模型验证和端到端效果由独立 GPU 对照评估。
+全命中消除了重复原生工作。零命中还有掩码构造成本，其他组的总耗时方向不一致。上表只量 CPU proposer，目标模型验证见独立 GPU 对照。
 
 ## 复现
 
@@ -25,3 +25,46 @@ python benchmark_native_rows.py /path/to/original/src/recallspec/runtime.py /pat
 ```
 
 [补丁](lazy-native.patch) · [初测证据](cpu-evidence.json) · [复测 232](cpu-s232.json) · [复测 233](cpu-s233.json) · [复测 234](cpu-s234.json)
+
+## RTX 4090 严格对照
+
+在 RTX 4090、vLLM 0.32.0、PyTorch 2.13.0+cu130、Qwen2.5-3B-Instruct BF16 上运行。三种子各比较 81 条输出，两版的 243 条完整 token ID 序列逐条相同。每组结束后 live cursor 和 pending 均归零，索引峰值未超过 50,000 个键。原版和按需版均执行同样次数的 proposer 路径，其中按需版全批短路累计 292 次。该计数覆盖完整 trace，包含每轮启动时的独立预热。
+
+| 种子 | 完整输出 ID 一致数 | 原版原生调用 | 按需版原生调用 |
+| ---: | ---: | ---: | ---: |
+| 244 | 81/81 | 1737 | 1650 |
+| 245 | 81/81 | 1658 | 1560 |
+| 246 | 81/81 | 1569 | 1462 |
+| 合计 | 243/243 | 4964 | 4672 |
+
+- [环境与模型散列](gpu-cu130-environment.json)
+- [逐请求输出、草稿反馈与索引 trace](recall-gpu-strict/)
+- [独立复算](gpu-strict-audit.json)
+
+## 常规生成耗时
+
+相同种子和输入在常规配置下的完整 token ID 也逐条一致，共 243/243。以下为后两轮生成耗时的种子内中位数，再取三种子中位数。
+
+| 负载 | 批大小 | 原版，ms | 按需版，ms |
+| --- | ---: | ---: | ---: |
+| 重复 | 1 | 168.1 | 165.9 |
+| 重复 | 8 | 222.1 | 224.9 |
+| 通用 | 1 | 1296.9 | 1295.2 |
+| 通用 | 8 | 1389.0 | 1400.9 |
+| 冲突 | 1 | 633.1 | 627.9 |
+| 冲突 | 8 | 718.6 | 707.3 |
+
+生成耗时变化为约 −1.6% 至 +1.3%，方向随负载而变。重复批 8 和通用批 8 出现小幅回退。这次改动的直接收益是省掉被覆盖的原生提议，并保持已验证负载的输出一致。
+
+- [逐请求输出和分轮耗时](recall-gpu-timing/)
+- [独立复算](gpu-timing-audit.json)
+
+## GPU 复现
+
+沿用上述原版和候选副本，使用独立 venv 与同一份 Qwen2.5-3B-Instruct 权重。严格组启用 eager、batch-invariant 和 trace，常规计时组关闭这三项。两组固定 vLLM V1 GPUModelRunner、贪心解码与 128 个输出 token。每个种子覆盖重复、通用和冲突三类提示，批大小为 1、8，每个组合执行三轮。常规计时仅统计第 2、3 轮的 CUDA 同步生成耗时，分别取种子内与种子间中位数。
+
+```sh
+model=/path/to/Qwen2.5-3B-Instruct
+python gpu_compare.py --baseline baseline --candidate candidate --model "$model" --output strict --seeds 244 245 246 --strict
+python gpu_compare.py --baseline baseline --candidate candidate --model "$model" --output timing --seeds 244 245 246
+```

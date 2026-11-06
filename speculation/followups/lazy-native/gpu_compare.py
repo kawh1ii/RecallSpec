@@ -56,6 +56,7 @@ def main():
             if args.strict:
                 trace = target / f"gated-s{seed}-trace"
                 traces[variant] = trace_summary(trace, data["records"])
+                native_calls = 0
                 for file in trace.glob("*.jsonl"):
                     events = [json.loads(line) for line in file.read_text().splitlines()]
                     schedule = [e for e in events if e["event"] == "schedule"]
@@ -64,8 +65,9 @@ def main():
                     if any(e.get("keys", 0) > 50000 for e in events):
                         raise RuntimeError("Index exceeded key capacity")
                     if variant == "lazy":
-                        traces[variant]["all_proposer_calls"] = sum(
-                            e.get("native_calls", 0) for e in events if e["event"] == "propose")
+                        native_calls += sum(e["native_calls"] for e in events if e["event"] == "propose")
+                if variant == "lazy":
+                    traces[variant]["native_calls"] = native_calls
         comparison = compare(raw["original"], raw["lazy"])
         if comparison["total"] != 81:
             raise RuntimeError("Incomplete paired comparison")

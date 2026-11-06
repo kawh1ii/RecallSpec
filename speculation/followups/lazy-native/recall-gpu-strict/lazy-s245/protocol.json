@@ -1,0 +1,16 @@
+{
+  "model": "/root/autodl-tmp/models/Qwen2.5-3B-Instruct",
+  "output": "recall-gpu-strict/lazy-s245",
+  "modes": "gated",
+  "seeds": "245",
+  "rounds": 3,
+  "batches": "1,8",
+  "kinds": "repeat,general,conflict",
+  "tokens": 128,
+  "trace": true,
+  "eager": true,
+  "batch_invariant": true,
+  "prefix_cache": false,
+  "runner": "v1",
+  "config": null
+}
